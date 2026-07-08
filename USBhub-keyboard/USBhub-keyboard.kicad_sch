@@ -1213,10 +1213,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:Crystal"
-			(pin_numbers
-				(hide yes)
-			)
+		(symbol "Device:Crystal_GND2"
 			(pin_names
 				(offset 1.016)
 				(hide yes)
@@ -1227,7 +1224,7 @@
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "Y"
-				(at 0 3.81 0)
+				(at 0 5.715 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -1236,8 +1233,8 @@
 					)
 				)
 			)
-			(property "Value" "Crystal"
-				(at 0 -3.81 0)
+			(property "Value" "Crystal_GND2"
+				(at 0 3.81 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -1268,7 +1265,7 @@
 					)
 				)
 			)
-			(property "Description" "Two pin crystal"
+			(property "Description" "Three pin crystal, GND on pin 2"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1301,10 +1298,22 @@
 					)
 				)
 			)
-			(symbol "Crystal_0_1"
+			(symbol "Crystal_GND2_0_1"
 				(polyline
 					(pts
 						(xy -2.54 0) (xy -1.905 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 -2.286) (xy -2.54 -3.556) (xy 2.54 -3.556) (xy 2.54 -2.286)
 					)
 					(stroke
 						(width 0)
@@ -1339,7 +1348,19 @@
 				)
 				(polyline
 					(pts
-						(xy 1.905 -1.27) (xy 1.905 1.27)
+						(xy 0 -3.81) (xy 0 -3.556)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.905 1.27) (xy 1.905 -1.27)
 					)
 					(stroke
 						(width 0.508)
@@ -1351,7 +1372,7 @@
 				)
 				(polyline
 					(pts
-						(xy 2.54 0) (xy 1.905 0)
+						(xy 1.905 0) (xy 2.54 0)
 					)
 					(stroke
 						(width 0)
@@ -1362,7 +1383,7 @@
 					)
 				)
 			)
-			(symbol "Crystal_1_1"
+			(symbol "Crystal_GND2_1_1"
 				(pin passive line
 					(at -3.81 0 0)
 					(length 1.27)
@@ -1382,7 +1403,7 @@
 					)
 				)
 				(pin passive line
-					(at 3.81 0 180)
+					(at 0 -5.08 90)
 					(length 1.27)
 					(name "2"
 						(effects
@@ -1392,6 +1413,24 @@
 						)
 					)
 					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 1.27)
+					(name "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1697,6 +1736,163 @@
 						)
 					)
 					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Regulator_Linear:AZ1117-3.3"
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "U"
+				(at -3.81 3.175 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "AZ1117-3.3"
+				(at 0 3.175 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+				)
+			)
+			(property "Datasheet" "https://www.diodes.com/assets/Datasheets/AZ1117.pdf"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "1A 20V Fixed LDO Linear Regulator, 3.3V, SOT-89/SOT-223/TO-220/TO-252/TO-263"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "Fixed Voltage Regulator 1A Positive LDO"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "SOT?223* SOT?89* TO?220* TO?252* TO?263*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "AZ1117-3.3_0_1"
+				(rectangle
+					(start -5.08 1.905)
+					(end 5.08 -5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "AZ1117-3.3_1_1"
+				(pin power_in line
+					(at 0 -7.62 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "VO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -7.62 0 0)
+					(length 2.54)
+					(name "VI"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2219,6 +2415,145 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "power:+3V3"
+			(power global)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "+3V3"
+				(at 0 3.556 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+3V3\""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "+3V3_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+3V3_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:+5V"
 			(power global)
 			(pin_numbers
@@ -2499,6 +2834,18 @@
 		(uuid "77ca942d-c394-414d-b6ec-c35fd2d9fba4")
 	)
 	(rectangle
+		(start 17.78 167.64)
+		(end 97.79 201.93)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "788364af-0172-437b-8384-ecfd9a18ad9c")
+	)
+	(rectangle
 		(start 105.41 17.78)
 		(end 181.61 163.83)
 		(stroke
@@ -2540,6 +2887,16 @@
 		)
 		(uuid "9420bb00-0d26-4bc6-ac95-4bd0725da061")
 	)
+	(text "LDO 3.3V"
+		(exclude_from_sim no)
+		(at 29.21 171.45 0)
+		(effects
+			(font
+				(size 3 3)
+			)
+		)
+		(uuid "aa59a66c-9278-4d2e-832b-5a8efdd217d8")
+	)
 	(junction
 		(at 73.66 74.93)
 		(diameter 0)
@@ -2571,6 +2928,12 @@
 		(uuid "2228e116-15d8-4415-a5d4-e77d0b7acece")
 	)
 	(junction
+		(at 43.18 184.15)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "33133897-960e-4eec-a66a-718624026e9a")
+	)
+	(junction
 		(at 87.63 43.18)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2587,6 +2950,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4804510e-4218-44e0-978e-9230b46f24dd")
+	)
+	(junction
+		(at 68.58 184.15)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "50792689-9223-46a4-a07d-4e632b4a60b3")
 	)
 	(junction
 		(at 153.67 77.47)
@@ -2635,6 +3004,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7e4c3819-9763-4d80-9c25-a6f4675b927f")
+	)
+	(junction
+		(at 90.17 107.95)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "82cfa65e-3d52-49b7-a355-c28aa78eec01")
 	)
 	(junction
 		(at 90.17 129.54)
@@ -2701,6 +3076,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c704e4d4-b042-475f-a4ff-58149260ac47")
+	)
+	(junction
+		(at 78.74 132.08)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cf6cedc7-e720-48f3-91dc-b93fe67ce5f1")
 	)
 	(junction
 		(at 68.58 40.64)
@@ -2842,16 +3223,6 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 132.08) (xy 78.74 139.7)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "20c33659-44e2-431a-aa90-375e3ddd6a94")
-	)
-	(wire
-		(pts
 			(xy 69.85 106.68) (xy 69.85 104.14)
 		)
 		(stroke
@@ -2889,6 +3260,16 @@
 			(type default)
 		)
 		(uuid "23a53cb1-0b25-49d3-bc69-eaf8f41a67a8")
+	)
+	(wire
+		(pts
+			(xy 90.17 105.41) (xy 90.17 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2a25bed2-006c-405f-bfe8-a1bf33befef7")
 	)
 	(wire
 		(pts
@@ -3002,6 +3383,16 @@
 	)
 	(wire
 		(pts
+			(xy 43.18 184.15) (xy 48.26 184.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "40d8e1cb-1bb6-4181-9405-ace932e5fb73")
+	)
+	(wire
+		(pts
 			(xy 68.58 111.76) (xy 74.93 111.76)
 		)
 		(stroke
@@ -3062,6 +3453,16 @@
 	)
 	(wire
 		(pts
+			(xy 43.18 179.07) (xy 43.18 184.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "647698f9-57e7-4003-a247-b4e46535bac0")
+	)
+	(wire
+		(pts
 			(xy 87.63 154.94) (xy 87.63 153.67)
 		)
 		(stroke
@@ -3079,6 +3480,26 @@
 			(type default)
 		)
 		(uuid "714c05d3-057c-4963-8945-b07ba698bdf9")
+	)
+	(wire
+		(pts
+			(xy 68.58 184.15) (xy 68.58 179.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "726e0eb5-a4c9-47ca-8c1a-be816d2ec790")
+	)
+	(wire
+		(pts
+			(xy 63.5 184.15) (xy 68.58 184.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "73827021-7cf0-44e8-8c09-9ddb738a4f6e")
 	)
 	(wire
 		(pts
@@ -3159,6 +3580,16 @@
 			(type default)
 		)
 		(uuid "91b8ff2b-d9e0-47fc-b486-89db9abeac23")
+	)
+	(wire
+		(pts
+			(xy 78.74 132.08) (xy 78.74 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9689820e-f01b-4b51-9f16-8aaceff244c2")
 	)
 	(wire
 		(pts
@@ -3269,6 +3700,16 @@
 			(type default)
 		)
 		(uuid "aba5e29c-7eaa-43b1-a285-987dfd318bae")
+	)
+	(wire
+		(pts
+			(xy 80.01 107.95) (xy 90.17 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "af311320-cb10-45b4-b4f7-6b3f2e8f6b21")
 	)
 	(wire
 		(pts
@@ -3492,6 +3933,16 @@
 	)
 	(wire
 		(pts
+			(xy 80.01 132.08) (xy 78.74 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e9872a1b-a9ce-4ed9-8a78-373831d3a569")
+	)
+	(wire
+		(pts
 			(xy 144.78 125.73) (xy 148.59 125.73)
 		)
 		(stroke
@@ -3654,6 +4105,30 @@
 			)
 		)
 	)
+	(global_label "LDO5V"
+		(shape input)
+		(at 80.01 132.08 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "20798f29-67b5-479c-8491-570978f200cf")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 88.9219 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
 	(global_label "DDM3"
 		(shape input)
 		(at 27.94 116.84 180)
@@ -3787,6 +4262,30 @@
 		(uuid "724dccc5-45e6-4a34-978a-254445675cc6")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 146.4347 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "LDO5V"
+		(shape input)
+		(at 43.18 179.07 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "78b626db-350f-4671-83ef-d89da0a4abd5")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 43.18 170.1581 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4035,7 +4534,7 @@
 				)
 			)
 		)
-		(property "Value" "Ferrite Bead"
+		(property "Value" "120Ω"
 			(at 86.36 136.652 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4353,7 +4852,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "30c70654-4625-49ff-a340-eb514d7a6142")
-		(property "Reference" "C5"
+		(property "Reference" "C4"
 			(at 157.48 80.0099 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4417,7 +4916,85 @@
 		(instances
 			(project "USBhub-keyboard"
 				(path "/7e7ab60e-0529-4ac7-b01d-b7311b7ba917"
-					(reference "C5")
+					(reference "C4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 43.18 191.77 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "339d48de-aee8-4909-8a74-2f636866977e")
+		(property "Reference" "#PWR07"
+			(at 43.18 198.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 43.18 196.85 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 43.18 191.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 43.18 191.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 43.18 191.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "fd7a8545-0c3e-42b9-ad9f-18023e53a0e2")
+		)
+		(instances
+			(project "USBhub-keyboard"
+				(path "/7e7ab60e-0529-4ac7-b01d-b7311b7ba917"
+					(reference "#PWR07")
 					(unit 1)
 				)
 			)
@@ -4789,6 +5366,87 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 68.58 187.96 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "4ee2c20e-7204-4950-8d6e-5f4a59ea485c")
+		(property "Reference" "C7"
+			(at 71.12 185.928 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0.1µF"
+			(at 71.374 190.5 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 69.5452 191.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 68.58 187.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 68.58 187.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "659bc18c-6ceb-41fc-8db3-ad5b034bb19c")
+		)
+		(pin "2"
+			(uuid "15b8d2f7-e3b7-4994-b8da-2e469692c31e")
+		)
+		(instances
+			(project "USBhub-keyboard"
+				(path "/7e7ab60e-0529-4ac7-b01d-b7311b7ba917"
+					(reference "C7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 153.67 59.69 0)
 		(unit 1)
@@ -4877,7 +5535,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "5533ad79-8327-4c3f-8511-3809f930b80f")
-		(property "Reference" "C12"
+		(property "Reference" "C10"
 			(at 91.44 123.698 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4941,7 +5599,85 @@
 		(instances
 			(project "USBhub-keyboard"
 				(path "/7e7ab60e-0529-4ac7-b01d-b7311b7ba917"
-					(reference "C12")
+					(reference "C10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 68.58 179.07 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5e396ac9-6ee9-459b-a6a3-803b693cb8e9")
+		(property "Reference" "#PWR09"
+			(at 68.58 182.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 68.58 173.99 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 68.58 179.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 68.58 179.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 68.58 179.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "44f79609-2be1-4fc3-a94b-774825572087")
+		)
+		(instances
+			(project "USBhub-keyboard"
+				(path "/7e7ab60e-0529-4ac7-b01d-b7311b7ba917"
+					(reference "#PWR09")
 					(unit 1)
 				)
 			)
@@ -5106,7 +5842,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 90.17 107.95 180)
+		(at 90.17 105.41 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5116,7 +5852,7 @@
 		(dnp no)
 		(uuid "67bc5869-0b67-41ad-8df8-bb28f1fb308f")
 		(property "Reference" "#PWR014"
-			(at 90.17 101.6 0)
+			(at 90.17 99.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5127,7 +5863,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 93.726 106.426 0)
+			(at 93.726 103.886 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5137,7 +5873,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 90.17 107.95 0)
+			(at 90.17 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5148,7 +5884,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 90.17 107.95 0)
+			(at 90.17 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5159,7 +5895,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 90.17 107.95 0)
+			(at 90.17 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5255,87 +5991,6 @@
 			(project "USBhub-keyboard"
 				(path "/7e7ab60e-0529-4ac7-b01d-b7311b7ba917"
 					(reference "R2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:Crystal")
-		(at 74.93 107.95 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "71c41f6a-0cd9-4d47-ba30-54eeb23a7c04")
-		(property "Reference" "Y1"
-			(at 71.882 100.33 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "12M/20pF/20PPM"
-			(at 71.882 102.87 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 74.93 107.95 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 74.93 107.95 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Two pin crystal"
-			(at 74.93 107.95 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "6fb78436-ae44-4582-a177-54d4ba1a6e03")
-		)
-		(pin "1"
-			(uuid "531e2604-9f13-4d37-8e4f-cacf3ad89add")
-		)
-		(instances
-			(project "USBhub-keyboard"
-				(path "/7e7ab60e-0529-4ac7-b01d-b7311b7ba917"
-					(reference "Y1")
 					(unit 1)
 				)
 			)
@@ -5509,7 +6164,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8df0e1d9-1f5e-4037-9f2e-671e78f1adcd")
-		(property "Reference" "C7"
+		(property "Reference" "C5"
 			(at 167.132 114.554 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5573,7 +6228,7 @@
 		(instances
 			(project "USBhub-keyboard"
 				(path "/7e7ab60e-0529-4ac7-b01d-b7311b7ba917"
-					(reference "C7")
+					(reference "C5")
 					(unit 1)
 				)
 			)
@@ -5658,6 +6313,90 @@
 		)
 	)
 	(symbol
+		(lib_id "Regulator_Linear:AZ1117-3.3")
+		(at 55.88 184.15 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9314d7a1-85ea-46d4-a1ce-c118f8df1e5d")
+		(property "Reference" "U2"
+			(at 55.88 177.8 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "AZ1117-3.3"
+			(at 55.88 180.34 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 55.88 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/AZ1117.pdf"
+			(at 55.88 184.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "1A 20V Fixed LDO Linear Regulator, 3.3V, SOT-89/SOT-223/TO-220/TO-252/TO-263"
+			(at 55.88 184.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "bfebff8c-470d-4905-aee9-1c45f3e8ebd9")
+		)
+		(pin "3"
+			(uuid "f13bb190-27a7-485e-ad5c-77fad240d478")
+		)
+		(pin "2"
+			(uuid "4dd82d33-d32c-43aa-98ca-604dafbf488c")
+		)
+		(instances
+			(project "USBhub-keyboard"
+				(path "/7e7ab60e-0529-4ac7-b01d-b7311b7ba917"
+					(reference "U2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 90.17 113.03 0)
 		(unit 1)
@@ -5668,7 +6407,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9cb224f9-9baf-44b7-afe2-04263026da6f")
-		(property "Reference" "C10"
+		(property "Reference" "C8"
 			(at 91.44 110.998 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5732,7 +6471,7 @@
 		(instances
 			(project "USBhub-keyboard"
 				(path "/7e7ab60e-0529-4ac7-b01d-b7311b7ba917"
-					(reference "C10")
+					(reference "C8")
 					(unit 1)
 				)
 			)
@@ -6021,6 +6760,84 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 68.58 191.77 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a98645c5-c6b5-48f2-aa81-ea9e7a431bff")
+		(property "Reference" "#PWR010"
+			(at 68.58 198.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 68.58 196.85 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 68.58 191.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 68.58 191.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 68.58 191.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "5b0a4716-b36b-4a7e-9bdc-514488273c33")
+		)
+		(instances
+			(project "USBhub-keyboard"
+				(path "/7e7ab60e-0529-4ac7-b01d-b7311b7ba917"
+					(reference "#PWR010")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:USB_C_Receptacle_USB2.0_16P")
 		(at 38.1 50.8 0)
 		(unit 1)
@@ -6140,6 +6957,171 @@
 			(project "USBhub-keyboard"
 				(path "/7e7ab60e-0529-4ac7-b01d-b7311b7ba917"
 					(reference "J4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:Crystal_GND2")
+		(at 74.93 107.95 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "b7889c56-364f-4e09-9d3e-8fc6744ed8a9")
+		(property "Reference" "Y1"
+			(at 75.692 99.822 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "12M/20pF/20PPM"
+			(at 83.82 102.362 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 74.93 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 74.93 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Three pin crystal, GND on pin 2"
+			(at 74.93 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "ef5f727f-5ac3-4430-947d-8359d806baba")
+		)
+		(pin "2"
+			(uuid "9b4591cf-2bfe-411e-9d86-62589a148b65")
+		)
+		(pin "1"
+			(uuid "a642d051-e756-4b43-a356-4e06d59bd1c2")
+		)
+		(instances
+			(project "USBhub-keyboard"
+				(path "/7e7ab60e-0529-4ac7-b01d-b7311b7ba917"
+					(reference "Y1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 43.18 187.96 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "b9f36a2b-da4a-4351-a5c4-00d448d58774")
+		(property "Reference" "C6"
+			(at 45.466 185.928 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0.1µF"
+			(at 45.212 190.246 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 44.1452 191.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 43.18 187.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 43.18 187.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "38cf080c-1aee-461a-bfa4-bddca701ab92")
+		)
+		(pin "2"
+			(uuid "81c0b785-ffe0-4ed8-b08c-06acb58086de")
+		)
+		(instances
+			(project "USBhub-keyboard"
+				(path "/7e7ab60e-0529-4ac7-b01d-b7311b7ba917"
+					(reference "C6")
 					(unit 1)
 				)
 			)
@@ -6799,7 +7781,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ece9adb2-ff3e-4146-8d3b-90badd08bfc8")
-		(property "Reference" "C14"
+		(property "Reference" "C12"
 			(at 88.9 146.304 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6863,7 +7845,85 @@
 		(instances
 			(project "USBhub-keyboard"
 				(path "/7e7ab60e-0529-4ac7-b01d-b7311b7ba917"
-					(reference "C14")
+					(reference "C12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 55.88 191.77 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f3cd19c1-0e3b-4a82-a3ce-2dd52f72f398")
+		(property "Reference" "#PWR08"
+			(at 55.88 198.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 55.88 196.85 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 55.88 191.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 55.88 191.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 55.88 191.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "7a9564e5-bfe8-42b0-a24d-24572b170235")
+		)
+		(instances
+			(project "USBhub-keyboard"
+				(path "/7e7ab60e-0529-4ac7-b01d-b7311b7ba917"
+					(reference "#PWR08")
 					(unit 1)
 				)
 			)
