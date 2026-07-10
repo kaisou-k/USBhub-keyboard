@@ -13138,7 +13138,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Crystal_GND2"
+		(property "Value" "12MHz"
 			(at 226.06 163.8299 90)
 			(show_name no)
 			(do_not_autoplace no)
