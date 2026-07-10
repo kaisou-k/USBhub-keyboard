@@ -5,6 +5,284 @@
 	(uuid "7e7ab60e-0529-4ac7-b01d-b7311b7ba917")
 	(paper "A3")
 	(lib_symbols
+		(symbol "BrownSugar_KBD:OLED"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "OL"
+				(at 0 7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "OLED"
+				(at 0 -7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "OLED_0_1"
+				(rectangle
+					(start -5.08 6.35)
+					(end 5.08 -6.35)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "OLED_1_1"
+				(pin bidirectional line
+					(at -7.62 3.81 0)
+					(length 2.54)
+					(name "SDA"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -7.62 1.27 0)
+					(length 2.54)
+					(name "SCL"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -7.62 -1.27 0)
+					(length 2.54)
+					(name "VCC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -7.62 -3.81 0)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "BrownSugar_KBD:SW_PUSH"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "SW"
+				(at 3.81 2.794 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "SW_PUSH"
+				(at 0 -2.032 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "SW_PUSH_0_1"
+				(rectangle
+					(start -4.318 1.27)
+					(end 4.318 1.524)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.016 1.524) (xy -0.762 2.286) (xy 0.762 2.286) (xy 1.016 1.524)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive inverted
+					(at -7.62 0 0)
+					(length 5.08)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive inverted
+					(at 7.62 0 180)
+					(length 5.08)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Connector:Conn_01x05_Socket"
 			(pin_names
 				(offset 1.016)
@@ -304,1059 +582,6 @@
 						)
 					)
 					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Connector:USB_A"
-			(pin_names
-				(offset 1.016)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "J"
-				(at -5.08 11.43 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "USB_A"
-				(at -5.08 8.89 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" ""
-				(at 3.81 -1.27 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 3.81 -1.27 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "USB Type A connector"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "connector USB"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "USB*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "USB_A_0_1"
-				(rectangle
-					(start -5.08 -7.62)
-					(end 5.08 7.62)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(circle
-					(center -3.81 2.159)
-					(radius 0.635)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy -3.175 2.159) (xy -2.54 2.159) (xy -1.27 3.429) (xy -0.635 3.429)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.54 2.159) (xy -1.905 2.159) (xy -1.27 0.889) (xy 0 0.889)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.524 4.826)
-					(end -4.318 5.334)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start -1.27 4.572)
-					(end -4.572 5.842)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center -0.635 3.429)
-					(radius 0.381)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start -0.127 -7.62)
-					(end 0.127 -6.858)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 0.254 1.27)
-					(end -0.508 0.508)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.635 2.794) (xy 0.635 1.524) (xy 1.905 2.159) (xy 0.635 2.794)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start 5.08 4.953)
-					(end 4.318 5.207)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 5.08 -0.127)
-					(end 4.318 0.127)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 5.08 -2.667)
-					(end 4.318 -2.413)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "USB_A_1_1"
-				(polyline
-					(pts
-						(xy -1.905 2.159) (xy 0.635 2.159)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin power_in line
-					(at 7.62 5.08 180)
-					(length 2.54)
-					(name "VBUS"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 7.62 -2.54 180)
-					(length 2.54)
-					(name "D-"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 7.62 0 180)
-					(length 2.54)
-					(name "D+"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 -10.16 90)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -2.54 -10.16 90)
-					(length 2.54)
-					(name "Shield"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "SH"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Connector:USB_C_Receptacle_USB2.0_16P"
-			(pin_names
-				(offset 1.016)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "J"
-				(at 0 22.225 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "USB_C_Receptacle_USB2.0_16P"
-				(at 0 19.685 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 3.81 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" "https://www.usb.org/sites/default/files/documents/usb_type-c.zip"
-				(at 3.81 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "USB 2.0-only 16P Type-C Receptacle connector"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "usb universal serial bus type-C USB2.0"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "USB*C*Receptacle*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "USB_C_Receptacle_USB2.0_16P_0_0"
-				(rectangle
-					(start -0.254 -17.78)
-					(end 0.254 -16.764)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 10.16 15.494)
-					(end 9.144 14.986)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 10.16 10.414)
-					(end 9.144 9.906)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 10.16 7.874)
-					(end 9.144 7.366)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 10.16 2.794)
-					(end 9.144 2.286)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 10.16 0.254)
-					(end 9.144 -0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 10.16 -2.286)
-					(end 9.144 -2.794)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 10.16 -4.826)
-					(end 9.144 -5.334)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 10.16 -12.446)
-					(end 9.144 -12.954)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 10.16 -14.986)
-					(end 9.144 -15.494)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "USB_C_Receptacle_USB2.0_16P_0_1"
-				(rectangle
-					(start -10.16 17.78)
-					(end 10.16 -17.78)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(polyline
-					(pts
-						(xy -8.89 -3.81) (xy -8.89 3.81)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -7.62 -3.81)
-					(end -6.35 3.81)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(arc
-					(start -7.62 3.81)
-					(mid -6.985 4.4423)
-					(end -6.35 3.81)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -7.62 3.81)
-					(mid -6.985 4.4423)
-					(end -6.35 3.81)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(arc
-					(start -8.89 3.81)
-					(mid -6.985 5.7067)
-					(end -5.08 3.81)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -5.08 -3.81)
-					(mid -6.985 -5.7067)
-					(end -8.89 -3.81)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -6.35 -3.81)
-					(mid -6.985 -4.4423)
-					(end -7.62 -3.81)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -6.35 -3.81)
-					(mid -6.985 -4.4423)
-					(end -7.62 -3.81)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy -5.08 3.81) (xy -5.08 -3.81)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center -2.54 1.143)
-					(radius 0.635)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 4.318) (xy 0 6.858) (xy 1.27 4.318) (xy -1.27 4.318)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -2.032) (xy 2.54 0.508) (xy 2.54 1.778)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -3.302) (xy -2.54 -0.762) (xy -2.54 0.508)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -5.842) (xy 0 4.318)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 0 -5.842)
-					(radius 1.27)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start 1.905 1.778)
-					(end 3.175 3.048)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-			)
-			(symbol "USB_C_Receptacle_USB2.0_16P_1_1"
-				(pin passive line
-					(at 0 -22.86 90)
-					(length 5.08)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "A1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 15.24 15.24 180)
-					(length 5.08)
-					(name "VBUS"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "A4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 15.24 10.16 180)
-					(length 5.08)
-					(name "CC1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "A5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 15.24 -2.54 180)
-					(length 5.08)
-					(name "D+"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "A6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 15.24 2.54 180)
-					(length 5.08)
-					(name "D-"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "A7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 15.24 -12.7 180)
-					(length 5.08)
-					(name "SBU1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "A8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 15.24 15.24 180)
-					(length 5.08)
-					(hide yes)
-					(name "VBUS"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "A9"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -22.86 90)
-					(length 5.08)
-					(hide yes)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "A12"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -22.86 90)
-					(length 5.08)
-					(hide yes)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "B1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 15.24 15.24 180)
-					(length 5.08)
-					(hide yes)
-					(name "VBUS"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "B4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 15.24 7.62 180)
-					(length 5.08)
-					(name "CC2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "B5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 15.24 -5.08 180)
-					(length 5.08)
-					(name "D+"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "B6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 15.24 0 180)
-					(length 5.08)
-					(name "D-"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "B7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 15.24 -15.24 180)
-					(length 5.08)
-					(name "SBU2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "B8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 15.24 15.24 180)
-					(length 5.08)
-					(hide yes)
-					(name "VBUS"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "B9"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -22.86 90)
-					(length 5.08)
-					(hide yes)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "B12"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -7.62 -22.86 90)
-					(length 5.08)
-					(name "SHIELD"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "SH"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2038,6 +1263,193 @@
 					(at 0 -3.81 90)
 					(length 1.27)
 					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Diode:1N4148W"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "1N4148W"
+				(at 0 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Diode_SMD:D_SOD-123"
+				(at 0 -4.445 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://www.vishay.com/docs/85748/1n4148w.pdf"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "75V 0.15A Fast Switching Diode, SOD-123"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Sim.Device" "D"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Sim.Pins" "1=K 2=A"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "diode"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "D*SOD?123*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "1N4148W_0_1"
+				(polyline
+					(pts
+						(xy -1.27 1.27) (xy -1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "1N4148W_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4321,6 +3733,1167 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "USB-A:USB_A_v2"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "J"
+				(at -5.08 11.43 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "USB_A_v2"
+				(at -5.08 8.89 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 3.81 -1.27 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 3.81 -1.27 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "USB Type A connector"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "connector USB"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "USB*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "USB_A_v2_0_1"
+				(rectangle
+					(start -5.08 -7.62)
+					(end 5.08 7.62)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(circle
+					(center -3.81 2.159)
+					(radius 0.635)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.175 2.159) (xy -2.54 2.159) (xy -1.27 3.429) (xy -0.635 3.429)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 2.159) (xy -1.905 2.159) (xy -1.27 0.889) (xy 0 0.889)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.524 4.826)
+					(end -4.318 5.334)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start -1.27 4.572)
+					(end -4.572 5.842)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center -0.635 3.429)
+					(radius 0.381)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start -0.127 -7.62)
+					(end 0.127 -6.858)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 0.254 1.27)
+					(end -0.508 0.508)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 2.794) (xy 0.635 1.524) (xy 1.905 2.159) (xy 0.635 2.794)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 5.08 4.953)
+					(end 4.318 5.207)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 5.08 -0.127)
+					(end 4.318 0.127)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 5.08 -2.667)
+					(end 4.318 -2.413)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "USB_A_v2_1_1"
+				(polyline
+					(pts
+						(xy -1.905 2.159) (xy 0.635 2.159)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin power_in line
+					(at 7.62 5.08 180)
+					(length 2.54)
+					(name "VBUS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 7.62 -2.54 180)
+					(length 2.54)
+					(name "D-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "D+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -10.16 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -2.54 -10.16 90)
+					(length 2.54)
+					(name "Shield"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -2.54 -10.16 90)
+					(length 2.54)
+					(name "Shield"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "USB-C:USB_C_Receptacle_USB2.0_16P_V2"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "J"
+				(at 0 22.225 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "USB_C_Receptacle_USB2.0_16P_V2"
+				(at 0 19.685 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 3.81 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://www.usb.org/sites/default/files/documents/usb_type-c.zip"
+				(at 3.81 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "USB 2.0-only 16P Type-C Receptacle connector"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "usb universal serial bus type-C USB2.0"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "USB*C*Receptacle*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "USB_C_Receptacle_USB2.0_16P_V2_0_0"
+				(rectangle
+					(start -0.254 -17.78)
+					(end 0.254 -16.764)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 10.16 15.494)
+					(end 9.144 14.986)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 10.16 10.414)
+					(end 9.144 9.906)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 10.16 7.874)
+					(end 9.144 7.366)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 10.16 2.794)
+					(end 9.144 2.286)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 10.16 0.254)
+					(end 9.144 -0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 10.16 -2.286)
+					(end 9.144 -2.794)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 10.16 -4.826)
+					(end 9.144 -5.334)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 10.16 -12.446)
+					(end 9.144 -12.954)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 10.16 -14.986)
+					(end 9.144 -15.494)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "USB_C_Receptacle_USB2.0_16P_V2_0_1"
+				(rectangle
+					(start -10.16 17.78)
+					(end 10.16 -17.78)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -8.89 -3.81) (xy -8.89 3.81)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -7.62 -3.81)
+					(end -6.35 3.81)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(arc
+					(start -7.62 3.81)
+					(mid -6.985 4.4423)
+					(end -6.35 3.81)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -7.62 3.81)
+					(mid -6.985 4.4423)
+					(end -6.35 3.81)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(arc
+					(start -8.89 3.81)
+					(mid -6.985 5.7067)
+					(end -5.08 3.81)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -5.08 -3.81)
+					(mid -6.985 -5.7067)
+					(end -8.89 -3.81)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -6.35 -3.81)
+					(mid -6.985 -4.4423)
+					(end -7.62 -3.81)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -6.35 -3.81)
+					(mid -6.985 -4.4423)
+					(end -7.62 -3.81)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.08 3.81) (xy -5.08 -3.81)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center -2.54 1.143)
+					(radius 0.635)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 4.318) (xy 0 6.858) (xy 1.27 4.318) (xy -1.27 4.318)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -2.032) (xy 2.54 0.508) (xy 2.54 1.778)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -3.302) (xy -2.54 -0.762) (xy -2.54 0.508)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -5.842) (xy 0 4.318)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 -5.842)
+					(radius 1.27)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 1.905 1.778)
+					(end 3.175 3.048)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+			)
+			(symbol "USB_C_Receptacle_USB2.0_16P_V2_1_1"
+				(pin passive line
+					(at -7.62 -22.86 90)
+					(length 5.08)
+					(name "SHIELD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 -22.86 90)
+					(length 5.08)
+					(name "SHIELD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 -22.86 90)
+					(length 5.08)
+					(name "SHIELD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 -22.86 90)
+					(length 5.08)
+					(name "SHIELD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "16"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -22.86 90)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A1/B12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 15.24 15.24 180)
+					(length 5.08)
+					(name "VBUS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A4/B9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 15.24 10.16 180)
+					(length 5.08)
+					(name "CC1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 15.24 -2.54 180)
+					(length 5.08)
+					(name "D+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 15.24 2.54 180)
+					(length 5.08)
+					(name "D-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 15.24 -12.7 180)
+					(length 5.08)
+					(name "SBU1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 15.24 15.24 180)
+					(length 5.08)
+					(hide yes)
+					(name "VBUS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -22.86 90)
+					(length 5.08)
+					(hide yes)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -22.86 90)
+					(length 5.08)
+					(hide yes)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -22.86 90)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B1/A12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 15.24 15.24 180)
+					(length 5.08)
+					(hide yes)
+					(name "VBUS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 15.24 12.7 180)
+					(length 5.08)
+					(name "VBUS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B4/A9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 15.24 7.62 180)
+					(length 5.08)
+					(name "CC2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 15.24 -5.08 180)
+					(length 5.08)
+					(name "D+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 15.24 0 180)
+					(length 5.08)
+					(name "D-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 15.24 -15.24 180)
+					(length 5.08)
+					(name "SBU2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 15.24 15.24 180)
+					(length 5.08)
+					(hide yes)
+					(name "VBUS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -22.86 90)
+					(length 5.08)
+					(hide yes)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:+1V1"
 			(power global)
 			(pin_numbers
@@ -4853,6 +5426,121 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "power:PWR_FLAG"
+			(power global)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#FLG"
+				(at 0 1.905 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "PWR_FLAG"
+				(at 0 3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Special symbol for telling ERC where power comes from"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "flag power"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "PWR_FLAG_0_0"
+				(pin power_out line
+					(at 0 0 90)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "PWR_FLAG_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 1.27) (xy -1.016 1.905) (xy 0 2.54) (xy 1.016 1.905) (xy 0 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 	)
 	(rectangle
 		(start 251.46 180.34)
@@ -4877,6 +5565,18 @@
 			(type none)
 		)
 		(uuid "1490056a-a468-4d20-b596-10dad1a65265")
+	)
+	(rectangle
+		(start 17.78 167.64)
+		(end 179.07 280.67)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "36c2cea5-2d64-4a60-9fff-e012745a2d1d")
 	)
 	(rectangle
 		(start 191.77 144.78)
@@ -4963,6 +5663,18 @@
 		(uuid "9d6973cd-dc69-432c-8dfc-d41f58714d68")
 	)
 	(rectangle
+		(start 184.15 212.09)
+		(end 295.91 241.3)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "db785525-c910-471e-9d34-8d321778396a")
+	)
+	(rectangle
 		(start 102.87 17.78)
 		(end 179.07 162.56)
 		(stroke
@@ -5014,6 +5726,16 @@
 		)
 		(uuid "429a1e8f-119c-440c-a043-6d879542eb2f")
 	)
+	(text "OLED"
+		(exclude_from_sim no)
+		(at 192.278 216.916 0)
+		(effects
+			(font
+				(size 3 3)
+			)
+		)
+		(uuid "6a1e0aef-13d1-4ceb-a480-2b1f2c1b9abe")
+	)
 	(text "Crystal\n"
 		(exclude_from_sim no)
 		(at 199.39 148.59 0)
@@ -5033,6 +5755,16 @@
 			)
 		)
 		(uuid "774649d9-f934-4400-8fa2-e1f831df07f1")
+	)
+	(text "Keyboard SW\n"
+		(exclude_from_sim no)
+		(at 36.83 173.736 0)
+		(effects
+			(font
+				(size 3 3)
+			)
+		)
+		(uuid "7a474404-218b-45ed-9850-337744e59e11")
 	)
 	(text "MCU"
 		(exclude_from_sim no)
@@ -5081,6 +5813,12 @@
 		(uuid "04b7382c-a470-4b9a-aa59-4e50ed6435d7")
 	)
 	(junction
+		(at 111.76 224.79)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "05806186-4aaf-443d-9444-a014fd50f05f")
+	)
+	(junction
 		(at 293.37 43.18)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5093,22 +5831,34 @@
 		(uuid "0924638f-7158-4688-baf9-5a8939244177")
 	)
 	(junction
+		(at 60.96 224.79)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0ad6a025-3859-492e-b293-21002365a64a")
+	)
+	(junction
 		(at 328.93 53.34)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0d04f186-7d85-4919-adb1-a2f8f4d8d02a")
 	)
 	(junction
-		(at 129.54 54.61)
+		(at 127 148.59)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "159d4c71-ad51-4aa8-afac-c456bea25e9b")
+		(uuid "1707fede-412d-4ef3-9487-8ac184de5220")
 	)
 	(junction
 		(at 151.13 114.3)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1764691b-1199-49f0-a62d-1a708f117881")
+	)
+	(junction
+		(at 121.92 217.17)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1d8a8209-e214-44ab-a0ea-621f4126d59e")
 	)
 	(junction
 		(at 163.83 148.59)
@@ -5123,10 +5873,10 @@
 		(uuid "2002d175-7fa6-4b82-b998-1c7a21534b95")
 	)
 	(junction
-		(at 77.47 35.56)
+		(at 40.64 74.93)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "2228e116-15d8-4415-a5d4-e77d0b7acece")
+		(uuid "202115a4-465b-468e-a360-790a5c3e82e6")
 	)
 	(junction
 		(at 334.01 43.18)
@@ -5141,10 +5891,22 @@
 		(uuid "254bb70e-b710-4891-9be5-8d6d183c0528")
 	)
 	(junction
+		(at 81.28 74.93)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "25998211-203c-47c6-a188-d2605f11fa71")
+	)
+	(junction
 		(at 236.22 120.65)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "27a0456e-704a-42cf-b515-37c4e7627ede")
+	)
+	(junction
+		(at 77.47 35.56)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2a801b89-85ae-418d-8d42-294748b58bd6")
 	)
 	(junction
 		(at 356.87 43.18)
@@ -5153,16 +5915,40 @@
 		(uuid "2d3f08dd-b543-4b56-818c-b0570a729a54")
 	)
 	(junction
+		(at 111.76 275.59)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2d5293cf-c180-4844-bc6b-1790045bb3ad")
+	)
+	(junction
+		(at 45.72 217.17)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2f8e62fb-2d70-40f5-8750-dadfda5e94bf")
+	)
+	(junction
 		(at 337.82 228.6)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "33133897-960e-4eec-a66a-718624026e9a")
 	)
 	(junction
+		(at 152.4 54.61)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "343eaed6-0902-4372-bac4-c95566bda8c8")
+	)
+	(junction
 		(at 304.8 35.56)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3871cd37-bf30-47c6-b1da-9fa24a7fca7f")
+	)
+	(junction
+		(at 86.36 275.59)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3ac7a789-66f2-4cda-b6db-74769feb59c3")
 	)
 	(junction
 		(at 87.63 43.18)
@@ -5175,6 +5961,18 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3dc42149-3b49-4269-9eb8-9603ea1af3bd")
+	)
+	(junction
+		(at 86.36 199.39)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "417a5608-21c0-4ad0-8842-7950df10566f")
+	)
+	(junction
+		(at 60.96 275.59)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4259f8fd-4653-495b-8eb8-1928552d7050")
 	)
 	(junction
 		(at 163.83 109.22)
@@ -5195,10 +5993,22 @@
 		(uuid "50792689-9223-46a4-a07d-4e632b4a60b3")
 	)
 	(junction
+		(at 96.52 191.77)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5674f984-282b-4cc3-8927-485899139b97")
+	)
+	(junction
 		(at 152.4 73.66)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5775481e-3750-488f-a9ab-06854bff2ee5")
+	)
+	(junction
+		(at 73.66 35.56)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5804e00c-2f77-4c4e-8a0a-4a163118a338")
 	)
 	(junction
 		(at 81.28 120.65)
@@ -5213,10 +6023,10 @@
 		(uuid "58a6303d-362a-4487-b729-dac972739283")
 	)
 	(junction
-		(at 124.46 148.59)
+		(at 96.52 217.17)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "5a05e453-a68d-42ba-a3c3-3842b6840c79")
+		(uuid "59b77cf8-82f3-4866-be31-5b1ab23e593c")
 	)
 	(junction
 		(at 314.96 53.34)
@@ -5225,10 +6035,46 @@
 		(uuid "5a486e13-a1d4-46aa-b399-9cb5ecfc14da")
 	)
 	(junction
+		(at 60.96 250.19)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5bef73e0-2091-4da2-91eb-20b6e68127c4")
+	)
+	(junction
+		(at 78.74 138.43)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "60887aa1-08db-46fb-8470-510774b2707a")
+	)
+	(junction
+		(at 111.76 199.39)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "63a3face-02e8-447e-a3ae-99333b9dca7e")
+	)
+	(junction
 		(at 55.88 53.34)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "644b50cf-0722-4841-84b5-db945a2500e5")
+	)
+	(junction
+		(at 57.15 35.56)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "65952640-b736-4659-8780-0239e0f15775")
+	)
+	(junction
+		(at 121.92 191.77)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "66f39840-c2de-42f0-9685-7a22ad18cfac")
+	)
+	(junction
+		(at 71.12 191.77)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "67cc6e67-00c3-44ed-8ebf-f5a7d6efa998")
 	)
 	(junction
 		(at 314.96 46.99)
@@ -5253,6 +6099,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "72c6b644-fce0-45a3-9b48-b3e29f471fd7")
+	)
+	(junction
+		(at 45.72 242.57)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7485992d-8cbd-4582-9e55-242d3af49788")
 	)
 	(junction
 		(at 236.22 132.08)
@@ -5291,16 +6143,34 @@
 		(uuid "7bb0350d-4cdd-4783-93fb-94c1b5fe9409")
 	)
 	(junction
+		(at 71.12 242.57)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7c53ba12-3aa9-4cd1-adba-01c38a6d4456")
+	)
+	(junction
 		(at 229.87 167.64)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7e077aee-6f25-41b5-afa4-2768a8d54bdc")
 	)
 	(junction
+		(at 121.92 242.57)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7e258e15-fef5-4764-9b29-0e8066051aff")
+	)
+	(junction
 		(at 87.63 74.93)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7e4c3819-9763-4d80-9c25-a6f4675b927f")
+	)
+	(junction
+		(at 45.72 191.77)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "82800e37-ef18-44d0-b1bb-1cc5421b0047")
 	)
 	(junction
 		(at 90.17 106.68)
@@ -5351,6 +6221,12 @@
 		(uuid "97938f49-9953-4d08-9b12-56fc909ad240")
 	)
 	(junction
+		(at 124.46 148.59)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "97bf6e0f-cbd5-465f-b39f-7c852f28eb88")
+	)
+	(junction
 		(at 345.44 43.18)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5369,16 +6245,16 @@
 		(uuid "9d57b9ce-66d7-4b42-9df7-0cecddb01ffc")
 	)
 	(junction
+		(at 152.4 38.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a2094311-70b7-4740-8329-f334c8ee0c84")
+	)
+	(junction
 		(at 336.55 53.34)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a22ee964-00d5-4080-b871-888028aa2c85")
-	)
-	(junction
-		(at 152.4 38.1)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a5225366-1ccd-4562-a914-a778e1080154")
 	)
 	(junction
 		(at 379.73 35.56)
@@ -5393,16 +6269,16 @@
 		(uuid "a935fb84-7a73-40ea-be91-d2dc78ba9630")
 	)
 	(junction
-		(at 152.4 54.61)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "acb3200c-b36c-4bf3-a757-678c03374098")
-	)
-	(junction
 		(at 322.58 35.56)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ae182ad6-a21c-4154-90c3-420a118569d0")
+	)
+	(junction
+		(at 129.54 54.61)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b5662b1b-d99f-4e85-b451-1354cb570435")
 	)
 	(junction
 		(at 154.94 109.22)
@@ -5417,6 +6293,12 @@
 		(uuid "b6c5691e-375c-4529-afc2-9a512048e5d0")
 	)
 	(junction
+		(at 111.76 250.19)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bcb9a928-ce12-463e-abb4-1f9babbb9d8c")
+	)
+	(junction
 		(at 55.88 48.26)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5427,6 +6309,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "bfc8286d-3114-4c30-adb3-2b7935e660c9")
+	)
+	(junction
+		(at 86.36 224.79)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c1fbd532-c3bd-485d-8535-d2211de43897")
 	)
 	(junction
 		(at 314.96 35.56)
@@ -5447,16 +6335,10 @@
 		(uuid "c584a108-ea2d-4e52-8fb2-02c3a104c015")
 	)
 	(junction
-		(at 78.74 138.43)
+		(at 96.52 242.57)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "c704e4d4-b042-475f-a4ff-58149260ac47")
-	)
-	(junction
-		(at 78.74 130.81)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "cf6cedc7-e720-48f3-91dc-b93fe67ce5f1")
+		(uuid "cf135f91-fd46-4d49-85c0-57184250af61")
 	)
 	(junction
 		(at 318.77 53.34)
@@ -5477,6 +6359,18 @@
 		(uuid "d7ebdde5-54f2-45a6-b781-b2aeb7228577")
 	)
 	(junction
+		(at 71.12 217.17)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d810717b-3230-4874-b7e7-7c5a74a2657a")
+	)
+	(junction
+		(at 86.36 250.19)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d97848bb-1cf0-4be0-b869-e3d44088e085")
+	)
+	(junction
 		(at 229.87 157.48)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5487,6 +6381,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "dfaf87fb-ca75-42ae-86d0-523e854b1dcc")
+	)
+	(junction
+		(at 143.51 109.22)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e438ea59-d353-49d0-8acb-203e6317443f")
 	)
 	(junction
 		(at 242.57 48.26)
@@ -5507,26 +6407,112 @@
 		(uuid "ed1e2859-39dc-4a4e-84fa-a0140b56d13d")
 	)
 	(junction
+		(at 60.96 199.39)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f4aebc4d-6bd2-41c5-abda-e367c8e51268")
+	)
+	(junction
 		(at 143.51 121.92)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f971594d-47b2-4c8a-9eed-78ef43df7b73")
 	)
 	(no_connect
+		(at 359.41 127)
+		(uuid "05a2ab3b-fc91-4993-8d94-9af9ae1a8efe")
+	)
+	(no_connect
+		(at 359.41 129.54)
+		(uuid "099cfbba-2ea9-4987-8950-737b6bce7172")
+	)
+	(no_connect
+		(at 359.41 139.7)
+		(uuid "0db30972-a7ab-4b51-9fbb-9af708d90b0f")
+	)
+	(no_connect
 		(at 53.34 66.04)
 		(uuid "115375f9-2b71-4dc1-96d2-f45dc1cdc082")
+	)
+	(no_connect
+		(at 359.41 93.98)
+		(uuid "2f9dab62-1c34-4e5d-a82a-6fad7083eda4")
+	)
+	(no_connect
+		(at 359.41 101.6)
+		(uuid "33c18de5-ab9e-46ae-9869-3f59e6c75af7")
+	)
+	(no_connect
+		(at 359.41 134.62)
+		(uuid "3a3c17d5-685f-4a33-8e42-44d203139c7c")
+	)
+	(no_connect
+		(at 359.41 132.08)
+		(uuid "4a263305-ae08-44fb-8647-5363a6fa71a0")
+	)
+	(no_connect
+		(at 359.41 152.4)
+		(uuid "4e1056b2-a67e-4fc9-9c54-bb50e409766d")
+	)
+	(no_connect
+		(at 359.41 81.28)
+		(uuid "543cc96f-a8ac-4c59-b49f-33a375495128")
+	)
+	(no_connect
+		(at 359.41 78.74)
+		(uuid "5524deda-50a6-4a6f-a03a-743ad68b8e81")
 	)
 	(no_connect
 		(at 53.34 63.5)
 		(uuid "635c6f28-7ff0-4758-82e9-1665376f19ba")
 	)
 	(no_connect
+		(at 359.41 142.24)
+		(uuid "73d81755-35e1-424d-af4e-96783176b41c")
+	)
+	(no_connect
+		(at 359.41 99.06)
+		(uuid "946a41de-42ec-4a09-94ec-e9db2ea2076f")
+	)
+	(no_connect
+		(at 359.41 147.32)
+		(uuid "9b38f37b-6ca9-47ca-b5f3-c648e6ca3c31")
+	)
+	(no_connect
+		(at 359.41 96.52)
+		(uuid "9d4193c1-c606-42ca-99d5-fb8d8f92f4c9")
+	)
+	(no_connect
+		(at 359.41 137.16)
+		(uuid "a67d51b5-f557-4c3e-a3d4-d9f37ab8019f")
+	)
+	(no_connect
+		(at 359.41 124.46)
+		(uuid "a8f606d5-1783-4e4c-a119-8222f7c06dde")
+	)
+	(no_connect
 		(at 139.7 137.16)
 		(uuid "bc1cc949-06bd-44ff-93f7-d1f331390b29")
 	)
 	(no_connect
+		(at 359.41 154.94)
+		(uuid "ca4348d7-cc58-4032-99d4-1b2cd235f189")
+	)
+	(no_connect
+		(at 359.41 116.84)
+		(uuid "cda7a0c2-92fd-41b6-8f9a-027635198db6")
+	)
+	(no_connect
 		(at 139.7 139.7)
 		(uuid "d4f730d7-c101-4347-8d7d-533679336dfb")
+	)
+	(no_connect
+		(at 359.41 114.3)
+		(uuid "e124929d-f4c4-4b30-bfff-1b45cdb3bcbd")
+	)
+	(no_connect
+		(at 359.41 149.86)
+		(uuid "eda48083-d77f-4163-9492-d4467a0768cf")
 	)
 	(wire
 		(pts
@@ -5550,6 +6536,16 @@
 	)
 	(wire
 		(pts
+			(xy 129.54 54.61) (xy 152.4 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "011cf95a-e45f-4347-99b7-2ed4ff48a9fe")
+	)
+	(wire
+		(pts
 			(xy 314.96 53.34) (xy 314.96 60.96)
 		)
 		(stroke
@@ -5570,6 +6566,16 @@
 	)
 	(wire
 		(pts
+			(xy 60.96 224.79) (xy 86.36 224.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "04af7c79-1c13-4df1-b29e-316772087fd1")
+	)
+	(wire
+		(pts
 			(xy 236.22 121.92) (xy 236.22 120.65)
 		)
 		(stroke
@@ -5577,6 +6583,16 @@
 			(type default)
 		)
 		(uuid "051f94ca-3db7-4429-a93e-5c0b710291ac")
+	)
+	(wire
+		(pts
+			(xy 96.52 217.17) (xy 96.52 242.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "06c6ec59-02f5-445e-b171-8a7783cc8a85")
 	)
 	(wire
 		(pts
@@ -5610,6 +6626,16 @@
 	)
 	(wire
 		(pts
+			(xy 121.92 242.57) (xy 121.92 267.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0c0a156a-6363-42f6-bad2-53650ea47b93")
+	)
+	(wire
+		(pts
 			(xy 284.48 88.9) (xy 295.91 88.9)
 		)
 		(stroke
@@ -5637,6 +6663,16 @@
 			(type default)
 		)
 		(uuid "0e3aaf2d-9613-420e-8827-5108d5a50277")
+	)
+	(wire
+		(pts
+			(xy 39.37 250.19) (xy 60.96 250.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0ed17dfc-c8e4-4fa5-bdf3-315f343a5e74")
 	)
 	(wire
 		(pts
@@ -5680,6 +6716,26 @@
 	)
 	(wire
 		(pts
+			(xy 152.4 54.61) (xy 152.4 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "149ac5bd-8231-4dbb-8dbc-af64a101fc44")
+	)
+	(wire
+		(pts
+			(xy 39.37 224.79) (xy 60.96 224.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "152fed78-5c64-4ba8-b990-52806c1f0e56")
+	)
+	(wire
+		(pts
 			(xy 318.77 53.34) (xy 318.77 60.96)
 		)
 		(stroke
@@ -5690,16 +6746,6 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 53.34) (xy 129.54 54.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "16e9b481-53f8-4cff-bb09-7635dfa32741")
-	)
-	(wire
-		(pts
 			(xy 127 90.17) (xy 129.54 90.17)
 		)
 		(stroke
@@ -5707,6 +6753,16 @@
 			(type default)
 		)
 		(uuid "171e3399-90be-4fb7-80f3-eeffc9309cd3")
+	)
+	(wire
+		(pts
+			(xy 121.92 191.77) (xy 121.92 217.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "17791026-7bec-4c63-adcb-c921dc097895")
 	)
 	(wire
 		(pts
@@ -5730,6 +6786,16 @@
 	)
 	(wire
 		(pts
+			(xy 57.15 35.56) (xy 62.23 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1b0fe021-fb79-44ca-9039-5c2f639a091f")
+	)
+	(wire
+		(pts
 			(xy 87.63 142.24) (xy 78.74 142.24)
 		)
 		(stroke
@@ -5740,13 +6806,13 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 54.61) (xy 152.4 55.88)
+			(xy 143.51 109.22) (xy 154.94 109.22)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "1fbde72d-3d11-4332-8971-66694ebe6370")
+		(uuid "1f715ee6-86ea-41be-b403-f8eb9e9a01d9")
 	)
 	(wire
 		(pts
@@ -5760,6 +6826,16 @@
 	)
 	(wire
 		(pts
+			(xy 39.37 275.59) (xy 60.96 275.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "20edcecf-f12e-4cbc-bf46-fcbf96c66eb1")
+	)
+	(wire
+		(pts
 			(xy 69.85 105.41) (xy 69.85 102.87)
 		)
 		(stroke
@@ -5767,6 +6843,16 @@
 			(type default)
 		)
 		(uuid "20ff6035-ab26-42ca-8b99-ad4077d0768d")
+	)
+	(wire
+		(pts
+			(xy 60.96 250.19) (xy 86.36 250.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2101ff0a-5fa9-477a-8c15-a178e4d8e66f")
 	)
 	(wire
 		(pts
@@ -5880,23 +6966,23 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 34.29) (xy 152.4 38.1)
+			(xy 71.12 191.77) (xy 71.12 217.17)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "2d76a8c3-d6a9-4d43-9de6-9c9335da649f")
+		(uuid "2c9f0173-81af-4cd9-9d36-76c303dac9f4")
 	)
 	(wire
 		(pts
-			(xy 78.74 138.43) (xy 82.55 138.43)
+			(xy 217.17 226.06) (xy 217.17 227.33)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "2f1f5c20-236e-434b-8adb-cae0213537c7")
+		(uuid "2cdb2118-e025-44d6-9cf2-6d4d7578acfc")
 	)
 	(wire
 		(pts
@@ -5907,6 +6993,16 @@
 			(type default)
 		)
 		(uuid "3001ba75-12ee-4deb-b4a6-2f03d4259d65")
+	)
+	(wire
+		(pts
+			(xy 69.85 35.56) (xy 73.66 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "30031271-a56e-462c-8ecc-15310f431ae2")
 	)
 	(wire
 		(pts
@@ -5937,16 +7033,6 @@
 			(type default)
 		)
 		(uuid "3458edc9-0f1a-48bc-9295-d65c1dc80e44")
-	)
-	(wire
-		(pts
-			(xy 116.84 147.32) (xy 116.84 148.59)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "34bddcd2-45a8-4154-b96a-9a47a114c5b5")
 	)
 	(wire
 		(pts
@@ -6060,6 +7146,16 @@
 	)
 	(wire
 		(pts
+			(xy 111.76 250.19) (xy 137.16 250.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3ffc4099-48b4-4bd5-b8e7-eb4da6eaa21c")
+	)
+	(wire
+		(pts
 			(xy 337.82 228.6) (xy 342.9 228.6)
 		)
 		(stroke
@@ -6070,6 +7166,16 @@
 	)
 	(wire
 		(pts
+			(xy 53.34 38.1) (xy 57.15 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "42260e11-1d4b-4a04-a395-72890e00ad6a")
+	)
+	(wire
+		(pts
 			(xy 68.58 110.49) (xy 74.93 110.49)
 		)
 		(stroke
@@ -6077,6 +7183,36 @@
 			(type default)
 		)
 		(uuid "433d17d7-fe50-4c69-a73f-80f3e0b050ed")
+	)
+	(wire
+		(pts
+			(xy 127 54.61) (xy 129.54 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "45bea99e-3f04-422b-91d3-0d0dc29572fd")
+	)
+	(wire
+		(pts
+			(xy 217.17 227.33) (xy 245.11 227.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "46582df6-8d41-4ab5-80c1-b23ad4509562")
+	)
+	(wire
+		(pts
+			(xy 71.12 180.34) (xy 71.12 191.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "47eb0f36-7cd1-40e6-a753-ed38318bc3d1")
 	)
 	(wire
 		(pts
@@ -6127,6 +7263,16 @@
 			(type default)
 		)
 		(uuid "50ed6a40-b771-457e-8e84-fc4147359692")
+	)
+	(wire
+		(pts
+			(xy 78.74 138.43) (xy 85.09 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "51f8dd75-2336-4c7b-8a04-4bb5b6af3ec1")
 	)
 	(wire
 		(pts
@@ -6220,6 +7366,16 @@
 	)
 	(wire
 		(pts
+			(xy 81.28 74.93) (xy 87.63 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5c622334-fc4f-4006-b2cb-0036457bafd5")
+	)
+	(wire
+		(pts
 			(xy 213.36 157.48) (xy 229.87 157.48)
 		)
 		(stroke
@@ -6237,6 +7393,16 @@
 			(type default)
 		)
 		(uuid "5fb69d8a-494d-4d19-8ba0-db3708fa0e2a")
+	)
+	(wire
+		(pts
+			(xy 139.7 111.76) (xy 143.51 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6096f9e8-6348-4336-8ce6-5050370b3bfc")
 	)
 	(wire
 		(pts
@@ -6290,6 +7456,16 @@
 	)
 	(wire
 		(pts
+			(xy 245.11 229.87) (xy 217.17 229.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "659af19b-a3cf-41ef-8e6e-bd3f14ed70cb")
+	)
+	(wire
+		(pts
 			(xy 212.09 120.65) (xy 226.06 120.65)
 		)
 		(stroke
@@ -6320,6 +7496,16 @@
 	)
 	(wire
 		(pts
+			(xy 129.54 90.17) (xy 152.4 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6ae609a7-1e2f-4003-a835-d8a55c3d1dd9")
+	)
+	(wire
+		(pts
 			(xy 288.29 195.58) (xy 288.29 198.12)
 		)
 		(stroke
@@ -6337,6 +7523,16 @@
 			(type default)
 		)
 		(uuid "6e9973e3-4897-4740-8633-4bb5cdadd725")
+	)
+	(wire
+		(pts
+			(xy 129.54 53.34) (xy 129.54 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "70eee612-d403-4282-a444-498d4aef09a9")
 	)
 	(wire
 		(pts
@@ -6387,6 +7583,16 @@
 			(type default)
 		)
 		(uuid "73827021-7cf0-44e8-8c09-9ddb738a4f6e")
+	)
+	(wire
+		(pts
+			(xy 111.76 275.59) (xy 137.16 275.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "748b5783-abfd-4e1b-b6b5-47bef32485e7")
 	)
 	(wire
 		(pts
@@ -6450,13 +7656,13 @@
 	)
 	(wire
 		(pts
-			(xy 127 54.61) (xy 129.54 54.61)
+			(xy 60.96 199.39) (xy 86.36 199.39)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "7a5eea14-0341-4bee-b15f-fd51cde9c818")
+		(uuid "79dbc974-c3f4-49a7-af34-89260ffb6fa5")
 	)
 	(wire
 		(pts
@@ -6490,7 +7696,7 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 74.93) (xy 87.63 74.93)
+			(xy 73.66 74.93) (xy 81.28 74.93)
 		)
 		(stroke
 			(width 0)
@@ -6500,7 +7706,7 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 138.43) (xy 78.74 142.24)
+			(xy 78.74 130.81) (xy 78.74 138.43)
 		)
 		(stroke
 			(width 0)
@@ -6520,6 +7726,16 @@
 	)
 	(wire
 		(pts
+			(xy 143.51 111.76) (xy 143.51 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "85fb4694-7c98-4249-81be-27167e135336")
+	)
+	(wire
+		(pts
 			(xy 232.41 69.85) (xy 227.33 69.85)
 		)
 		(stroke
@@ -6527,6 +7743,16 @@
 			(type default)
 		)
 		(uuid "86c18b2b-a4ac-4a9f-a31f-4e823f5b4a25")
+	)
+	(wire
+		(pts
+			(xy 152.4 45.72) (xy 152.4 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "89a3e8bc-6a5f-49fc-88cb-936db453fda0")
 	)
 	(wire
 		(pts
@@ -6557,6 +7783,16 @@
 			(type default)
 		)
 		(uuid "8a71df27-3976-4c51-a671-297ef62856fd")
+	)
+	(wire
+		(pts
+			(xy 96.52 180.34) (xy 96.52 191.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8b41a084-8801-4aa9-a7b3-009a895a61b5")
 	)
 	(wire
 		(pts
@@ -6610,6 +7846,36 @@
 	)
 	(wire
 		(pts
+			(xy 127 147.32) (xy 127 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "91c6e103-5951-4a02-a8b1-d3841aa67cd2")
+	)
+	(wire
+		(pts
+			(xy 154.94 109.22) (xy 163.83 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "93b8ec40-e1ff-46c5-950d-a5b0886b2277")
+	)
+	(wire
+		(pts
+			(xy 152.4 34.29) (xy 152.4 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "946f8c30-bc51-466f-8d88-da6377511ab2")
+	)
+	(wire
+		(pts
 			(xy 379.73 43.18) (xy 391.16 43.18)
 		)
 		(stroke
@@ -6620,33 +7886,13 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 130.81) (xy 78.74 138.43)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9689820e-f01b-4b51-9f16-8aaceff244c2")
-	)
-	(wire
-		(pts
-			(xy 53.34 35.56) (xy 77.47 35.56)
+			(xy 53.34 35.56) (xy 57.15 35.56)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "96b6a3bf-d48e-44fb-ad57-df2969ae2c51")
-	)
-	(wire
-		(pts
-			(xy 116.84 148.59) (xy 124.46 148.59)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "98855413-4007-4b36-957e-91257c221657")
 	)
 	(wire
 		(pts
@@ -6657,6 +7903,16 @@
 			(type default)
 		)
 		(uuid "9bd16f80-d850-452f-bee2-611391a3e75e")
+	)
+	(wire
+		(pts
+			(xy 60.96 275.59) (xy 86.36 275.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9c31d989-f253-4222-b6cb-3d846008493e")
 	)
 	(wire
 		(pts
@@ -6710,6 +7966,16 @@
 	)
 	(wire
 		(pts
+			(xy 127 53.34) (xy 127 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a1539437-1d70-47a9-a044-87fb3c5f014c")
+	)
+	(wire
+		(pts
 			(xy 87.63 76.2) (xy 87.63 74.93)
 		)
 		(stroke
@@ -6720,16 +7986,6 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 138.43) (xy 91.44 138.43)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a20f46a7-5536-4a33-a3dd-98ca5a96290c")
-	)
-	(wire
-		(pts
 			(xy 139.7 124.46) (xy 143.51 124.46)
 		)
 		(stroke
@@ -6737,6 +7993,26 @@
 			(type default)
 		)
 		(uuid "a2ed8eed-91e4-4ac0-ba59-611561ad963a")
+	)
+	(wire
+		(pts
+			(xy 217.17 229.87) (xy 217.17 231.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a391e8c5-636a-4a52-9a57-05eb9cde9e68")
+	)
+	(wire
+		(pts
+			(xy 127 148.59) (xy 163.83 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a4073402-16ae-4c66-947d-d8eff032569e")
 	)
 	(wire
 		(pts
@@ -6780,13 +8056,13 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 90.17) (xy 152.4 90.17)
+			(xy 40.64 74.93) (xy 73.66 74.93)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a9aa9d05-6774-4d8a-9275-1539ee1a138a")
+		(uuid "a8649dd7-0e4e-4256-ae7f-9d49d92e3e22")
 	)
 	(wire
 		(pts
@@ -6920,6 +8196,16 @@
 	)
 	(wire
 		(pts
+			(xy 137.16 38.1) (xy 152.4 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b7bbd542-db0a-4140-8295-7d6ecb5fccda")
+	)
+	(wire
+		(pts
 			(xy 151.13 114.3) (xy 151.13 116.84)
 		)
 		(stroke
@@ -6937,6 +8223,36 @@
 			(type default)
 		)
 		(uuid "b86d99c7-03bf-4dbd-87af-6dd13f24501e")
+	)
+	(wire
+		(pts
+			(xy 45.72 191.77) (xy 45.72 217.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bbf935d8-1f59-452d-9fcb-bc6695e39411")
+	)
+	(wire
+		(pts
+			(xy 45.72 217.17) (xy 45.72 242.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bd6aaf89-b882-47d9-b274-cc4604ea8086")
+	)
+	(wire
+		(pts
+			(xy 71.12 125.73) (xy 68.58 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bdecf3e8-dbaa-4f2c-9980-1ae5089476d5")
 	)
 	(wire
 		(pts
@@ -6970,6 +8286,16 @@
 	)
 	(wire
 		(pts
+			(xy 86.36 224.79) (xy 111.76 224.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c2ad79f0-39c2-478f-8dbc-8ba1b4f87165")
+	)
+	(wire
+		(pts
 			(xy 344.17 53.34) (xy 344.17 60.96)
 		)
 		(stroke
@@ -6987,16 +8313,6 @@
 			(type default)
 		)
 		(uuid "c36d4bc1-6b4a-4a55-905f-22a086003004")
-	)
-	(wire
-		(pts
-			(xy 127 53.34) (xy 127 54.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c37145e7-ef0f-4486-801a-6e09f3235f63")
 	)
 	(wire
 		(pts
@@ -7020,16 +8336,6 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 130.81) (xy 78.74 130.81)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c43f60f6-5e84-43c5-af0c-8e5792705a5c")
-	)
-	(wire
-		(pts
 			(xy 359.41 68.58) (xy 363.22 68.58)
 		)
 		(stroke
@@ -7040,6 +8346,16 @@
 	)
 	(wire
 		(pts
+			(xy 45.72 242.57) (xy 45.72 267.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c4c574cb-7877-45ef-8e14-a0bc74f4e6a4")
+	)
+	(wire
+		(pts
 			(xy 152.4 69.85) (xy 152.4 73.66)
 		)
 		(stroke
@@ -7047,6 +8363,26 @@
 			(type default)
 		)
 		(uuid "c4eefd4d-da91-4dec-a5fd-72cebf1b40c4")
+	)
+	(wire
+		(pts
+			(xy 71.12 242.57) (xy 71.12 267.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c7a370b6-ab0b-4cde-8c67-18a34b53a74d")
+	)
+	(wire
+		(pts
+			(xy 86.36 250.19) (xy 111.76 250.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c7e3270c-d240-41a1-969a-f3b05f4788e9")
 	)
 	(wire
 		(pts
@@ -7080,13 +8416,43 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 109.22) (xy 163.83 109.22)
+			(xy 45.72 180.34) (xy 45.72 191.77)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "cfec0695-e059-46c7-81a3-d726b0ba3c35")
+		(uuid "ceec674f-7af6-493b-8682-0d8a25d595b6")
+	)
+	(wire
+		(pts
+			(xy 96.52 242.57) (xy 96.52 267.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d0fa05ea-7c0e-47c3-84c8-cd657a22822d")
+	)
+	(wire
+		(pts
+			(xy 78.74 138.43) (xy 78.74 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d2ddf0cc-1bc3-4ec2-a4a3-74c3f47d992e")
+	)
+	(wire
+		(pts
+			(xy 121.92 180.34) (xy 121.92 191.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d30e644a-8d13-4d43-8627-69e58c61b40d")
 	)
 	(wire
 		(pts
@@ -7110,13 +8476,13 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 45.72) (xy 152.4 54.61)
+			(xy 73.66 35.56) (xy 77.47 35.56)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d5001758-40fe-4860-871d-6d2fc4ef3ed0")
+		(uuid "d5deaec8-d7be-4684-a60b-e76b681ffa83")
 	)
 	(wire
 		(pts
@@ -7170,7 +8536,17 @@
 	)
 	(wire
 		(pts
-			(xy 38.1 74.93) (xy 73.66 74.93)
+			(xy 40.64 73.66) (xy 40.64 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "db9d5607-de18-4838-b34d-f22bc6d2dd05")
+	)
+	(wire
+		(pts
+			(xy 38.1 74.93) (xy 40.64 74.93)
 		)
 		(stroke
 			(width 0)
@@ -7197,6 +8573,16 @@
 			(type default)
 		)
 		(uuid "de4f9667-9747-4009-99dc-da07a019411a")
+	)
+	(wire
+		(pts
+			(xy 68.58 130.81) (xy 78.74 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "deb66388-5262-441f-bb3d-51541d6ae2e5")
 	)
 	(wire
 		(pts
@@ -7230,7 +8616,7 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 109.22) (xy 154.94 109.22)
+			(xy 139.7 109.22) (xy 143.51 109.22)
 		)
 		(stroke
 			(width 0)
@@ -7247,6 +8633,26 @@
 			(type default)
 		)
 		(uuid "e3983c54-be63-4bc3-b3a3-3ca86b66bdbc")
+	)
+	(wire
+		(pts
+			(xy 111.76 224.79) (xy 137.16 224.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e6e85a7a-fb4f-4f52-9fb6-130e6f88bb53")
+	)
+	(wire
+		(pts
+			(xy 116.84 147.32) (xy 116.84 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e74041cb-097e-4bce-ad1c-581185779304")
 	)
 	(wire
 		(pts
@@ -7270,16 +8676,6 @@
 	)
 	(wire
 		(pts
-			(xy 80.01 130.81) (xy 78.74 130.81)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e9872a1b-a9ce-4ed9-8a78-373831d3a569")
-	)
-	(wire
-		(pts
 			(xy 213.36 167.64) (xy 229.87 167.64)
 		)
 		(stroke
@@ -7287,6 +8683,16 @@
 			(type default)
 		)
 		(uuid "ea4e0155-de93-449b-93e0-17b3e26ae8d7")
+	)
+	(wire
+		(pts
+			(xy 86.36 275.59) (xy 111.76 275.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ea96014a-7faf-4d90-bf3e-0715fbcdf750")
 	)
 	(wire
 		(pts
@@ -7300,6 +8706,16 @@
 	)
 	(wire
 		(pts
+			(xy 71.12 217.17) (xy 71.12 242.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f05c2173-d43d-47fe-9f0d-b51ed83ff874")
+	)
+	(wire
+		(pts
 			(xy 340.36 53.34) (xy 340.36 60.96)
 		)
 		(stroke
@@ -7307,6 +8723,16 @@
 			(type default)
 		)
 		(uuid "f1debe20-d97c-451d-8e85-47f9b447cf70")
+	)
+	(wire
+		(pts
+			(xy 57.15 38.1) (xy 57.15 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f1e72c33-a58a-440b-8a15-5dfd43d82dde")
 	)
 	(wire
 		(pts
@@ -7320,6 +8746,16 @@
 	)
 	(wire
 		(pts
+			(xy 111.76 199.39) (xy 137.16 199.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f267cde2-9b3e-411e-b3a3-5d03b6020d6f")
+	)
+	(wire
+		(pts
 			(xy 152.4 81.28) (xy 152.4 90.17)
 		)
 		(stroke
@@ -7330,23 +8766,13 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 148.59) (xy 163.83 148.59)
+			(xy 124.46 148.59) (xy 127 148.59)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "f2c6a3c6-f414-4dd4-a93d-eeabef7e7c7f")
-	)
-	(wire
-		(pts
-			(xy 129.54 54.61) (xy 152.4 54.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f30cc3af-38c3-43b6-91d7-9dee6f56402e")
 	)
 	(wire
 		(pts
@@ -7357,6 +8783,16 @@
 			(type default)
 		)
 		(uuid "f3693c37-9576-4bc5-a38a-042d244d4158")
+	)
+	(wire
+		(pts
+			(xy 86.36 199.39) (xy 111.76 199.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f3d244ee-0bae-45c8-9a66-1d188092d0e0")
 	)
 	(wire
 		(pts
@@ -7430,6 +8866,16 @@
 	)
 	(wire
 		(pts
+			(xy 39.37 199.39) (xy 60.96 199.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f8b8bbf9-5858-4f73-b414-54bac1a36780")
+	)
+	(wire
+		(pts
 			(xy 323.85 53.34) (xy 323.85 60.96)
 		)
 		(stroke
@@ -7460,6 +8906,16 @@
 	)
 	(wire
 		(pts
+			(xy 96.52 191.77) (xy 96.52 217.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f9c0b4c6-b31a-4251-b0b4-2fe23d788ffe")
+	)
+	(wire
+		(pts
 			(xy 137.16 73.66) (xy 152.4 73.66)
 		)
 		(stroke
@@ -7467,6 +8923,16 @@
 			(type default)
 		)
 		(uuid "fb729068-80ef-4eda-a263-2069c10fd758")
+	)
+	(wire
+		(pts
+			(xy 116.84 148.59) (xy 124.46 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fb8d5fec-1b99-4d83-a218-17feb47360d1")
 	)
 	(wire
 		(pts
@@ -7510,13 +8976,13 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 38.1) (xy 152.4 38.1)
+			(xy 121.92 217.17) (xy 121.92 242.57)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "ff8a81f4-d15d-4f81-9c8c-52b48b2a3dff")
+		(uuid "ff2a7641-4326-432e-8c62-c77ddf871d05")
 	)
 	(wire
 		(pts
@@ -7818,6 +9284,30 @@
 		)
 		(uuid "f7be4271-6da9-4cb4-bd68-7b89c6fd834c")
 	)
+	(global_label "ROW1"
+		(shape input)
+		(at 359.41 86.36 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "0a4b23a5-31cf-4b90-a1c8-5f31f0f8b1df")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 367.6566 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
 	(global_label "GPIO16_SDA"
 		(shape input)
 		(at 359.41 119.38 0)
@@ -7866,9 +9356,9 @@
 			)
 		)
 	)
-	(global_label "LDO5V"
+	(global_label "COL1"
 		(shape input)
-		(at 80.01 130.81 0)
+		(at 359.41 106.68 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7876,9 +9366,57 @@
 			)
 			(justify left)
 		)
-		(uuid "20798f29-67b5-479c-8491-570978f200cf")
+		(uuid "1459ebc7-b32f-49c5-9708-0555b1566cf5")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 88.9219 130.81 0)
+			(at 367.2333 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "ROW0"
+		(shape input)
+		(at 39.37 199.39 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "18f78f7f-bad3-4755-b977-432138313a5d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 31.1234 199.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "DDP1"
+		(shape input)
+		(at 137.16 43.18 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "1ab77143-6853-404e-bb0f-39017bcad1d5")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 145.1647 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7911,6 +9449,30 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+			)
+		)
+	)
+	(global_label "COL1"
+		(shape input)
+		(at 71.12 180.34 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "27352612-e5de-4565-a0df-e938232ba1ba")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 78.9433 180.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 	)
@@ -7962,19 +9524,19 @@
 			)
 		)
 	)
-	(global_label "DDM1"
+	(global_label "ROW2"
 		(shape input)
-		(at 137.16 45.72 0)
+		(at 39.37 250.19 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
-		(uuid "47a30670-ba6d-4ed8-ae56-3bffd23046a2")
+		(uuid "3ec10f50-55e3-4dfc-9675-2b04359dce1d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 145.3461 45.72 0)
+			(at 31.1234 250.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7982,7 +9544,7 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 	)
@@ -8007,6 +9569,54 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+			)
+		)
+	)
+	(global_label "ROW3"
+		(shape input)
+		(at 359.41 91.44 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "5b31434c-2454-4ccf-b986-82211dd03d0a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 367.6566 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "ROW2"
+		(shape input)
+		(at 359.41 88.9 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "5b4524ae-ff4e-400b-b124-9dba759df26f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 367.6566 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 	)
@@ -8082,9 +9692,9 @@
 			)
 		)
 	)
-	(global_label "DDP1"
+	(global_label "ROW0"
 		(shape input)
-		(at 137.16 43.18 0)
+		(at 359.41 83.82 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8092,9 +9702,9 @@
 			)
 			(justify left)
 		)
-		(uuid "724dccc5-45e6-4a34-978a-254445675cc6")
+		(uuid "6fcef2e6-99b0-42ba-8212-8c0e120717a7")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 145.1647 43.18 0)
+			(at 367.6566 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8106,9 +9716,9 @@
 			)
 		)
 	)
-	(global_label "LDO5V"
+	(global_label "COL3"
 		(shape input)
-		(at 337.82 223.52 90)
+		(at 121.92 180.34 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8116,9 +9726,9 @@
 			)
 			(justify left)
 		)
-		(uuid "78b626db-350f-4671-83ef-d89da0a4abd5")
+		(uuid "7c5fc0cf-c459-4aff-a9cb-761c00556066")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 337.82 214.6081 90)
+			(at 129.7433 180.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8154,6 +9764,30 @@
 			)
 		)
 	)
+	(global_label "COL0"
+		(shape input)
+		(at 359.41 104.14 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "8a6a9ee1-56c8-4967-9077-2e34919fba6e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 367.2333 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
 	(global_label "DDP3"
 		(shape input)
 		(at 147.32 127 0)
@@ -8167,6 +9801,30 @@
 		(uuid "90012b7d-707a-43ac-91c6-afc56b05836b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 155.3247 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "COL3"
+		(shape input)
+		(at 359.41 111.76 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "90fa206c-5a88-4cde-992b-df1ec553bd52")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 367.2333 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8226,6 +9884,30 @@
 			)
 		)
 	)
+	(global_label "GPIO17_SCL"
+		(shape input)
+		(at 245.11 224.79 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "9ab2f869-f9a8-4037-aa8b-e1c36d735467")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 230.7553 224.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
 	(global_label "DDP4"
 		(shape input)
 		(at 27.94 110.49 180)
@@ -8247,6 +9929,30 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+			)
+		)
+	)
+	(global_label "COL2"
+		(shape input)
+		(at 359.41 109.22 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a4986633-7e00-4087-a053-887e336aafca")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 367.2333 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 	)
@@ -8274,6 +9980,54 @@
 			)
 		)
 	)
+	(global_label "ROW1"
+		(shape input)
+		(at 39.37 224.79 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "a683b1e2-3d1f-4beb-b26c-4861a89fad46")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 31.1234 224.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "COL2"
+		(shape input)
+		(at 96.52 180.34 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a9f857bb-57ab-41ee-aa4f-101363ac027d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 104.3433 180.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
 	(global_label "DDM1"
 		(shape input)
 		(at 27.94 135.89 180)
@@ -8298,6 +10052,30 @@
 			)
 		)
 	)
+	(global_label "DDM1"
+		(shape input)
+		(at 137.16 45.72 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ac86c6b0-6ee2-4243-a8f4-930a5831dae9")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 145.3461 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
 	(global_label "GPIO16_SDA"
 		(shape input)
 		(at 264.16 198.12 0)
@@ -8311,6 +10089,54 @@
 		(uuid "b100a5a6-6754-48de-9fa2-cac833273e4a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 278.5752 198.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "GPIO16_SDA"
+		(shape input)
+		(at 245.11 222.25 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b1a739b5-e54f-4cdc-8950-3b4cbc1e86cd")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 230.6948 222.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "COL0"
+		(shape input)
+		(at 45.72 180.34 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b2ed06b5-c7fa-4aa2-9a1a-a72c62a24263")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 53.5433 180.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8367,6 +10193,30 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+	)
+	(global_label "ROW3"
+		(shape input)
+		(at 39.37 275.59 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c4a19bc9-f915-49b2-aab3-dc6ee6813fbe")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 31.1234 275.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 	)
@@ -8474,7 +10324,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 210.82 71.628 90)
 			(hide yes)
 			(show_name no)
@@ -8601,8 +10451,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:FerriteBead")
-		(at 86.36 138.43 90)
+		(lib_id "Diode:1N4148W")
+		(at 111.76 271.78 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8610,9 +10460,33 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "07bcd8ad-c226-4cc6-b473-e77c5397053a")
-		(property "Reference" "FB1"
-			(at 86.36 133.604 90)
+		(fields_autoplaced yes)
+		(uuid "04c4a6bf-55c8-4a45-974c-cb3334639633")
+		(property "Reference" "D15"
+			(at 114.3 270.5099 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1N4148W"
+			(at 114.3 273.0499 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 116.205 271.78 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8621,8 +10495,9 @@
 				)
 			)
 		)
-		(property "Value" "120Ω"
-			(at 86.36 135.382 90)
+		(property "Datasheet" "https://www.vishay.com/docs/85748/1n4148w.pdf"
+			(at 111.76 271.78 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8631,8 +10506,88 @@
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 86.36 140.208 90)
+		(property "Description" "75V 0.15A Fast Switching Diode, SOD-123"
+			(at 111.76 271.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 111.76 271.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 111.76 271.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "dd90b3d7-b16a-4832-ae54-7732a97501df")
+		)
+		(pin "1"
+			(uuid "b5498260-b3f7-465e-acf9-4490b36f4c8c")
+		)
+		(instances
+			(project "USBhub-keyboard"
+				(path "/7e7ab60e-0529-4ac7-b01d-b7311b7ba917"
+					(reference "D15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "BrownSugar_KBD:SW_PUSH")
+		(at 129.54 267.97 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "063c9e93-ea1e-4c4e-a474-f446cdecae47")
+		(property "Reference" "SW16"
+			(at 129.54 260.35 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_PUSH"
+			(at 129.54 262.89 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "BrownSugar_KBD:CherryMX_Hotswap_via_1U"
+			(at 129.54 267.97 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8643,7 +10598,164 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 86.36 138.43 0)
+			(at 129.54 267.97 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 129.54 267.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "88af7fe4-9400-46e0-a85b-a4bcd4e60026")
+		)
+		(pin "1"
+			(uuid "4e268736-c8b4-499e-ad2d-d60215324210")
+		)
+		(instances
+			(project "USBhub-keyboard"
+				(path "/7e7ab60e-0529-4ac7-b01d-b7311b7ba917"
+					(reference "SW16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "BrownSugar_KBD:SW_PUSH")
+		(at 78.74 217.17 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "068dc83b-9f59-46dd-b1ae-d6a2682de444")
+		(property "Reference" "SW6"
+			(at 78.74 209.55 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_PUSH"
+			(at 78.74 212.09 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "BrownSugar_KBD:CherryMX_Hotswap_via_1U"
+			(at 78.74 217.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 78.74 217.17 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 78.74 217.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "4d7f41e4-b92b-4d01-8c01-008a4cf36cb3")
+		)
+		(pin "1"
+			(uuid "8d92f84d-c0bd-4560-840c-c0642156f8e2")
+		)
+		(instances
+			(project "USBhub-keyboard"
+				(path "/7e7ab60e-0529-4ac7-b01d-b7311b7ba917"
+					(reference "SW6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:FerriteBead")
+		(at 66.04 35.56 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "07bcd8ad-c226-4cc6-b473-e77c5397053a")
+		(property "Reference" "FB1"
+			(at 66.04 30.734 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "120Ω"
+			(at 66.04 32.512 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 66.04 37.338 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 66.04 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8654,7 +10766,7 @@
 			)
 		)
 		(property "Description" "Ferrite bead"
-			(at 86.36 138.43 0)
+			(at 66.04 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8752,6 +10864,110 @@
 			(project "USBhub-keyboard"
 				(path "/7e7ab60e-0529-4ac7-b01d-b7311b7ba917"
 					(reference "#PWR05")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4148W")
+		(at 111.76 220.98 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0b45aeba-b8e0-4272-b8d3-a0b3aa9511a7")
+		(property "Reference" "D7"
+			(at 114.3 219.7099 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1N4148W"
+			(at 114.3 222.2499 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 116.205 220.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/85748/1n4148w.pdf"
+			(at 111.76 220.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "75V 0.15A Fast Switching Diode, SOD-123"
+			(at 111.76 220.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 111.76 220.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 111.76 220.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "6c8e34e9-eee5-4b71-b8a8-ea6a783351ca")
+		)
+		(pin "1"
+			(uuid "980df319-65cc-4026-bf1b-6ae053d6734a")
+		)
+		(instances
+			(project "USBhub-keyboard"
+				(path "/7e7ab60e-0529-4ac7-b01d-b7311b7ba917"
+					(reference "D7")
 					(unit 1)
 				)
 			)
@@ -8858,7 +11074,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100nF"
+		(property "Value" "0.1µF"
 			(at 255.27 53.3399 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8869,7 +11085,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 252.4252 55.88 0)
 			(hide yes)
 			(show_name no)
@@ -8950,7 +11166,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 78.4352 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -8993,6 +11209,268 @@
 			(project "USBhub-keyboard"
 				(path "/7e7ab60e-0529-4ac7-b01d-b7311b7ba917"
 					(reference "C1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "BrownSugar_KBD:SW_PUSH")
+		(at 129.54 217.17 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0d41b608-ba29-4b0b-979d-a9378d6f5336")
+		(property "Reference" "SW8"
+			(at 129.54 209.55 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_PUSH"
+			(at 129.54 212.09 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "BrownSugar_KBD:CherryMX_Hotswap_via_1U"
+			(at 129.54 217.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 129.54 217.17 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 129.54 217.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "40486b8a-ea66-4d6f-98ea-5434bc6f5391")
+		)
+		(pin "2"
+			(uuid "8b8678c2-421a-4336-a016-f43d2e757d5a")
+		)
+		(instances
+			(project "USBhub-keyboard"
+				(path "/7e7ab60e-0529-4ac7-b01d-b7311b7ba917"
+					(reference "SW8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "BrownSugar_KBD:SW_PUSH")
+		(at 78.74 191.77 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "12571b85-0a85-47b7-a27b-99e6aaefcbce")
+		(property "Reference" "SW2"
+			(at 78.74 184.15 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_PUSH"
+			(at 78.74 186.69 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "BrownSugar_KBD:CherryMX_Hotswap_via_1U"
+			(at 78.74 191.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 78.74 191.77 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 78.74 191.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "95daeaba-6be8-4c9e-a1d7-c1dfb73dbe92")
+		)
+		(pin "1"
+			(uuid "b8efbec6-5176-4e2c-b165-04d9de6b3c22")
+		)
+		(instances
+			(project "USBhub-keyboard"
+				(path "/7e7ab60e-0529-4ac7-b01d-b7311b7ba917"
+					(reference "SW2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4148W")
+		(at 111.76 246.38 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1478be11-ec51-4cfb-b7c5-7a93c84325f6")
+		(property "Reference" "D11"
+			(at 114.3 245.1099 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1N4148W"
+			(at 114.3 247.6499 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 116.205 246.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/85748/1n4148w.pdf"
+			(at 111.76 246.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "75V 0.15A Fast Switching Diode, SOD-123"
+			(at 111.76 246.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 111.76 246.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 111.76 246.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "2a5bf0ba-d774-4c36-b92e-83400f59dbf2")
+		)
+		(pin "1"
+			(uuid "a29d4f4d-ce3a-4b28-8567-7f708a95b72a")
+		)
+		(instances
+			(project "USBhub-keyboard"
+				(path "/7e7ab60e-0529-4ac7-b01d-b7311b7ba917"
+					(reference "D11")
 					(unit 1)
 				)
 			)
@@ -9077,6 +11555,98 @@
 		)
 	)
 	(symbol
+		(lib_id "USB-A:USB_A_v2")
+		(at 129.54 43.18 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "15ad2000-77d0-477e-862a-631405b22df7")
+		(property "Reference" "J2"
+			(at 129.54 30.48 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "USB_A_v2"
+			(at 129.54 33.02 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "USB-A:3210W1BCE"
+			(at 133.35 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 133.35 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "USB Type A connector"
+			(at 129.54 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "6"
+			(uuid "f19f3d16-3f0c-4654-8be2-115f36412a64")
+		)
+		(pin "3"
+			(uuid "3c81b31b-4216-42a3-8057-af619d3992e5")
+		)
+		(pin "4"
+			(uuid "2a180bb6-dbee-4d35-8990-879e1ce981e5")
+		)
+		(pin "5"
+			(uuid "9f708649-ee3e-4b92-9cb1-7703a4a5d9a3")
+		)
+		(pin "1"
+			(uuid "c97f1381-d330-49d5-a27d-99f05a40b891")
+		)
+		(pin "2"
+			(uuid "e2aeffa6-e59d-492d-9ca5-b2b8f5f27085")
+		)
+		(instances
+			(project "USBhub-keyboard"
+				(path "/7e7ab60e-0529-4ac7-b01d-b7311b7ba917"
+					(reference "J2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "MCU_RaspberryPi_RP2040:RP2040")
 		(at 327.66 111.76 0)
 		(unit 1)
@@ -9110,7 +11680,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "RP2040_minimal:RP2040-QFN-56"
+		(property "Footprint" "RP2040_minimal_r2:RP2040-QFN-56"
 			(at 308.61 111.76 0)
 			(hide yes)
 			(show_name no)
@@ -9324,8 +11894,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:USB_A")
-		(at 129.54 43.18 0)
+		(lib_id "BrownSugar_KBD:SW_PUSH")
+		(at 129.54 191.77 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9334,9 +11904,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "1bcc05c4-8b62-43be-8889-1cf7d065fdfb")
-		(property "Reference" "J2"
-			(at 129.54 30.48 0)
+		(uuid "1b1e84c1-0923-491a-822a-ba24b993d0e3")
+		(property "Reference" "SW4"
+			(at 129.54 184.15 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9345,8 +11915,8 @@
 				)
 			)
 		)
-		(property "Value" "USB_A"
-			(at 129.54 33.02 0)
+		(property "Value" "SW_PUSH"
+			(at 129.54 186.69 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9355,8 +11925,8 @@
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 133.35 44.45 0)
+		(property "Footprint" "BrownSugar_KBD:CherryMX_Hotswap_via_1U"
+			(at 129.54 191.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9367,8 +11937,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 133.35 44.45 0)
-			(hide yes)
+			(at 129.54 191.77 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9377,8 +11946,8 @@
 				)
 			)
 		)
-		(property "Description" "USB Type A connector"
-			(at 129.54 43.18 0)
+		(property "Description" ""
+			(at 129.54 191.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9387,26 +11956,278 @@
 					(size 1.27 1.27)
 				)
 			)
-		)
-		(pin "SH"
-			(uuid "ece91e35-9d94-4395-b52a-62b142b2d39f")
-		)
-		(pin "4"
-			(uuid "b8f50e78-6bc0-4ec0-abc8-4a331933a481")
-		)
-		(pin "3"
-			(uuid "82c7909a-64ba-42b1-9e2f-ef779649ed16")
-		)
-		(pin "2"
-			(uuid "cf262da7-d35e-4470-a65f-cad701e5caa4")
 		)
 		(pin "1"
-			(uuid "d022417d-4102-43bc-9267-cf2de7ca5678")
+			(uuid "c5693c7e-237f-4fcd-9add-4c51b498e525")
+		)
+		(pin "2"
+			(uuid "d73ecf81-e3d8-4370-9008-cea8713703f7")
 		)
 		(instances
 			(project "USBhub-keyboard"
 				(path "/7e7ab60e-0529-4ac7-b01d-b7311b7ba917"
-					(reference "J2")
+					(reference "SW4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 217.17 231.14 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1c6b251e-abb0-4caa-bf2b-ce28a205c73c")
+		(property "Reference" "#PWR039"
+			(at 217.17 237.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 217.17 236.22 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 217.17 231.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 217.17 231.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 217.17 231.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "91adbae0-cb78-41cf-80f0-d6ffc15bdf25")
+		)
+		(instances
+			(project "USBhub-keyboard"
+				(path "/7e7ab60e-0529-4ac7-b01d-b7311b7ba917"
+					(reference "#PWR039")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4148W")
+		(at 86.36 195.58 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1db405e6-aabf-464e-b0a4-0da3786133ef")
+		(property "Reference" "D2"
+			(at 88.9 194.3099 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1N4148W"
+			(at 88.9 196.8499 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 90.805 195.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/85748/1n4148w.pdf"
+			(at 86.36 195.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "75V 0.15A Fast Switching Diode, SOD-123"
+			(at 86.36 195.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 86.36 195.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 86.36 195.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "53859126-ef8e-47b0-856d-35d07c8192b2")
+		)
+		(pin "1"
+			(uuid "419a8c01-bbcb-48d5-ba7c-28ce3463423d")
+		)
+		(instances
+			(project "USBhub-keyboard"
+				(path "/7e7ab60e-0529-4ac7-b01d-b7311b7ba917"
+					(reference "D2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "BrownSugar_KBD:SW_PUSH")
+		(at 53.34 217.17 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1e4aec05-6c86-4217-8cf8-ab6291f4204f")
+		(property "Reference" "SW5"
+			(at 53.34 209.55 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_PUSH"
+			(at 53.34 212.09 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "BrownSugar_KBD:CherryMX_Hotswap_via_1U"
+			(at 53.34 217.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 53.34 217.17 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 53.34 217.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "628191bf-2d02-4e97-924c-f028a39e4ced")
+		)
+		(pin "2"
+			(uuid "78b5e10e-ee52-4ff9-bd13-88421d3863dd")
+		)
+		(instances
+			(project "USBhub-keyboard"
+				(path "/7e7ab60e-0529-4ac7-b01d-b7311b7ba917"
+					(reference "SW5")
 					(unit 1)
 				)
 			)
@@ -9491,6 +12312,84 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+5V")
+		(at 337.82 223.52 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2dfc0313-c422-400f-be91-6689c8ca7a4f")
+		(property "Reference" "#PWR040"
+			(at 337.82 227.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+5V"
+			(at 337.82 218.44 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 337.82 223.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 337.82 223.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 337.82 223.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "3b3fb999-c94f-45ea-a94e-58706c4642e6")
+		)
+		(instances
+			(project "USBhub-keyboard"
+				(path "/7e7ab60e-0529-4ac7-b01d-b7311b7ba917"
+					(reference "#PWR040")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 242.57 90.17 0)
 		(unit 1)
@@ -9569,6 +12468,93 @@
 		)
 	)
 	(symbol
+		(lib_id "BrownSugar_KBD:OLED")
+		(at 252.73 226.06 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "2f4fe151-d598-429f-9780-bcbe714a92cf")
+		(property "Reference" "OL1"
+			(at 259.08 224.7899 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "OLED"
+			(at 259.08 227.3299 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "SSD1306:128x64OLED"
+			(at 252.73 218.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 252.73 218.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 252.73 226.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "45a7ff50-0cc7-4284-b3cf-e68eff6bfd04")
+		)
+		(pin "2"
+			(uuid "c9918c00-1c53-41e3-8c03-ffcd7596d133")
+		)
+		(pin "4"
+			(uuid "d2c4e835-842c-4148-9aa6-318198959a3f")
+		)
+		(pin "1"
+			(uuid "2e7d01a6-7eca-4e5a-8b10-65c2cc3b311d")
+		)
+		(instances
+			(project "USBhub-keyboard"
+				(path "/7e7ab60e-0529-4ac7-b01d-b7311b7ba917"
+					(reference "OL1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 152.4 77.47 0)
 		(unit 1)
@@ -9602,7 +12588,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 153.3652 81.28 0)
 			(hide yes)
 			(show_name no)
@@ -9751,7 +12737,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100nF"
+		(property "Value" "0.1µF"
 			(at 394.97 40.6399 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9762,7 +12748,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 392.1252 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -10019,6 +13005,268 @@
 		)
 	)
 	(symbol
+		(lib_id "BrownSugar_KBD:SW_PUSH")
+		(at 53.34 191.77 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "37268331-6326-46ba-96a3-fb0151727d6f")
+		(property "Reference" "SW1"
+			(at 53.34 184.15 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_PUSH"
+			(at 53.34 186.69 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "BrownSugar_KBD:CherryMX_Hotswap_via_1U"
+			(at 53.34 191.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 53.34 191.77 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 53.34 191.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "609be40a-29df-4abe-8c2b-93581f670083")
+		)
+		(pin "2"
+			(uuid "d240fb88-837b-4994-850f-5d73f3d8ac63")
+		)
+		(instances
+			(project "USBhub-keyboard"
+				(path "/7e7ab60e-0529-4ac7-b01d-b7311b7ba917"
+					(reference "SW1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4148W")
+		(at 60.96 271.78 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "37d06f31-ef26-43d1-9d9f-027291ed265f")
+		(property "Reference" "D13"
+			(at 63.5 270.5099 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1N4148W"
+			(at 63.5 273.0499 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 65.405 271.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/85748/1n4148w.pdf"
+			(at 60.96 271.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "75V 0.15A Fast Switching Diode, SOD-123"
+			(at 60.96 271.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 60.96 271.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 60.96 271.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "027cb133-ccbf-42f4-b3a6-4dba15616459")
+		)
+		(pin "1"
+			(uuid "43ead44d-187b-4807-af96-878f928ac5b2")
+		)
+		(instances
+			(project "USBhub-keyboard"
+				(path "/7e7ab60e-0529-4ac7-b01d-b7311b7ba917"
+					(reference "D13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "BrownSugar_KBD:SW_PUSH")
+		(at 78.74 242.57 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3880daf6-9085-4ed0-825e-8cb23a0b0d2d")
+		(property "Reference" "SW10"
+			(at 78.74 234.95 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_PUSH"
+			(at 78.74 237.49 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "BrownSugar_KBD:CherryMX_Hotswap_via_1U"
+			(at 78.74 242.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 78.74 242.57 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 78.74 242.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "19f9fbfa-4ef1-4567-8da8-2a760b8b8397")
+		)
+		(pin "2"
+			(uuid "0d586419-a2f0-49bb-a903-776b6fb7508c")
+		)
+		(instances
+			(project "USBhub-keyboard"
+				(path "/7e7ab60e-0529-4ac7-b01d-b7311b7ba917"
+					(reference "SW10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 87.63 76.2 0)
 		(unit 1)
@@ -10176,7 +13424,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 68.58 125.73 90)
+		(at 71.12 125.73 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10187,7 +13435,7 @@
 		(fields_autoplaced yes)
 		(uuid "4566f034-e016-4600-836a-24c9cbb53153")
 		(property "Reference" "#PWR016"
-			(at 74.93 125.73 0)
+			(at 77.47 125.73 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10198,7 +13446,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 72.39 125.7299 90)
+			(at 74.93 125.7299 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10209,7 +13457,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 68.58 125.73 0)
+			(at 71.12 125.73 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10220,7 +13468,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 68.58 125.73 0)
+			(at 71.12 125.73 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10231,7 +13479,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 68.58 125.73 0)
+			(at 71.12 125.73 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10276,7 +13524,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100nF"
+		(property "Value" "0.1µF"
 			(at 326.39 40.6399 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10287,7 +13535,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 323.5452 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -10446,7 +13694,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 364.1852 236.22 0)
 			(hide yes)
 			(show_name no)
@@ -10573,84 +13821,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 152.4 55.88 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5490fd01-e858-46b2-939d-cbe5003b83e2")
-		(property "Reference" "#PWR011"
-			(at 152.4 62.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 152.4 60.96 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 152.4 55.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 152.4 55.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 152.4 55.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "10b6f01f-dce8-43a7-8742-1f930185fba0")
-		)
-		(instances
-			(project "USBhub-keyboard"
-				(path "/7e7ab60e-0529-4ac7-b01d-b7311b7ba917"
-					(reference "#PWR011")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 90.17 124.46 0)
 		(unit 1)
@@ -10683,7 +13853,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 91.1352 128.27 0)
 			(hide yes)
 			(show_name no)
@@ -10754,7 +13924,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100nF"
+		(property "Value" "0.1µF"
 			(at 372.11 40.6399 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10765,7 +13935,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 369.2652 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -10808,6 +13978,188 @@
 			(project "USBhub-keyboard"
 				(path "/7e7ab60e-0529-4ac7-b01d-b7311b7ba917"
 					(reference "C22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 81.28 74.93 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "563c1563-ce77-4a48-aac5-0b6d42b32529")
+		(property "Reference" "#FLG02"
+			(at 81.28 73.025 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 81.28 69.85 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 81.28 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 81.28 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 81.28 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "4089a1fd-b2a1-439c-a11b-2294e3bc8c1d")
+		)
+		(instances
+			(project "USBhub-keyboard"
+				(path "/7e7ab60e-0529-4ac7-b01d-b7311b7ba917"
+					(reference "#FLG02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4148W")
+		(at 60.96 195.58 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "59cab640-8e4a-46e0-bf52-8a58a5a7a295")
+		(property "Reference" "D1"
+			(at 63.5 194.3099 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1N4148W"
+			(at 63.5 196.8499 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 65.405 195.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/85748/1n4148w.pdf"
+			(at 60.96 195.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "75V 0.15A Fast Switching Diode, SOD-123"
+			(at 60.96 195.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 60.96 195.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 60.96 195.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "029469d1-49d8-4e0b-b812-c4ae965f03ef")
+		)
+		(pin "2"
+			(uuid "f65e9649-aa8f-4a3f-a183-60f8f7ba1ae2")
+		)
+		(instances
+			(project "USBhub-keyboard"
+				(path "/7e7ab60e-0529-4ac7-b01d-b7311b7ba917"
+					(reference "D1")
 					(unit 1)
 				)
 			)
@@ -10936,7 +14288,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100nF"
+		(property "Value" "0.1µF"
 			(at 308.61 40.6399 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10947,7 +14299,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 305.7652 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -10996,84 +14348,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+5V")
-		(at 152.4 34.29 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5f9cd218-2cd3-40a0-bf62-14787c897d7e")
-		(property "Reference" "#PWR03"
-			(at 152.4 38.1 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+5V"
-			(at 152.4 29.21 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 152.4 34.29 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 152.4 34.29 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 152.4 34.29 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "3ce6c48c-bba6-4972-a391-1d05aed91cba")
-		)
-		(instances
-			(project "USBhub-keyboard"
-				(path "/7e7ab60e-0529-4ac7-b01d-b7311b7ba917"
-					(reference "#PWR03")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 59.69 40.64 90)
 		(unit 1)
@@ -11104,7 +14378,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 59.69 42.418 90)
 			(hide yes)
 			(show_name no)
@@ -11230,6 +14504,342 @@
 		)
 	)
 	(symbol
+		(lib_id "USB-C:USB_C_Receptacle_USB2.0_16P_V2")
+		(at 124.46 124.46 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "68848a37-6e36-4b52-9112-956e11b2f980")
+		(property "Reference" "J5"
+			(at 124.46 101.6 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "USB_C_Receptacle_USB2.0_16P_V2"
+			(at 124.46 104.14 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "USB-C:CONN_8p94X6p5X3p16_12L_GCC"
+			(at 128.27 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.usb.org/sites/default/files/documents/usb_type-c.zip"
+			(at 128.27 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "USB 2.0-only 16P Type-C Receptacle connector"
+			(at 124.46 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "15"
+			(uuid "2aaa853f-bbe5-4d16-9480-47a80f0a3f5d")
+		)
+		(pin "A1/B12"
+			(uuid "5e7c1f92-d360-4014-b7d5-155aa13fd1ce")
+		)
+		(pin "14"
+			(uuid "26448833-70bb-418c-83e7-5d81bf843f4e")
+		)
+		(pin "A9"
+			(uuid "28a14480-d0b8-4a20-832f-fa2e7e90024a")
+		)
+		(pin "13"
+			(uuid "870439a0-8c3c-4d62-8e6a-a8a184a94fee")
+		)
+		(pin "B1"
+			(uuid "184ec5a8-a716-46ab-9d89-7f5d0b0b5465")
+		)
+		(pin "A6"
+			(uuid "d63dfec8-649a-4972-875d-42b54138e8bf")
+		)
+		(pin "16"
+			(uuid "5ea24f95-cceb-4c1c-be0d-63da0b64ca85")
+		)
+		(pin "A5"
+			(uuid "aade3339-3317-4bd8-8389-4c8cc649ce92")
+		)
+		(pin "A7"
+			(uuid "2adc7449-8d8d-43c1-a118-821276014af7")
+		)
+		(pin "A8"
+			(uuid "03365f73-b1c4-4965-a77d-8287ac2846f7")
+		)
+		(pin "A4/B9"
+			(uuid "0e69111d-8a5b-4a97-b0be-944699602e0c")
+		)
+		(pin "A12"
+			(uuid "84c8a987-346f-4fbb-a4ad-24426eca76e1")
+		)
+		(pin "B1/A12"
+			(uuid "0913f3f1-df21-4c97-9046-c4620b12a89a")
+		)
+		(pin "B7"
+			(uuid "ff8acd1b-c8e7-460a-b5cc-f7eafc8edf33")
+		)
+		(pin "B4"
+			(uuid "f7f0585c-be6a-4095-b0ba-88308d21ddba")
+		)
+		(pin "B6"
+			(uuid "8e993282-8b76-4351-bb10-9a306729be04")
+		)
+		(pin "B8"
+			(uuid "b987970c-f15d-44ad-9bdd-57eed1c7a14f")
+		)
+		(pin "B12"
+			(uuid "355f70e5-8ba0-41ed-a10a-f4bece48e6db")
+		)
+		(pin "B9"
+			(uuid "e3af6f1e-cb96-4fa7-b626-2f955bc518ba")
+		)
+		(pin "B5"
+			(uuid "9e5272e7-fca7-43a6-a944-07ea206eeaec")
+		)
+		(pin "B4/A9"
+			(uuid "199134f7-e445-48a7-be30-616104656369")
+		)
+		(instances
+			(project "USBhub-keyboard"
+				(path "/7e7ab60e-0529-4ac7-b01d-b7311b7ba917"
+					(reference "J5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "USB-A:USB_A_v2")
+		(at 129.54 78.74 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "69a63731-d6a2-4a39-9a7c-35339634a779")
+		(property "Reference" "J3"
+			(at 129.54 66.04 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "USB_A_v2"
+			(at 129.54 68.58 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "USB-A:3210W1BCE"
+			(at 133.35 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 133.35 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "USB Type A connector"
+			(at 129.54 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "5"
+			(uuid "4cb72cec-3363-4678-959c-7ddd5e5dc45f")
+		)
+		(pin "1"
+			(uuid "b83d4e08-d32c-4dea-bbe8-ef6279a0a53b")
+		)
+		(pin "2"
+			(uuid "8442a44e-3dbe-4e72-ade2-5d6c1974420f")
+		)
+		(pin "3"
+			(uuid "3e25a887-f881-4626-ab21-d0025608831b")
+		)
+		(pin "4"
+			(uuid "a26de457-01ea-41b5-91ae-42b927773292")
+		)
+		(pin "6"
+			(uuid "21a797ae-819f-440c-80f5-737c343a8719")
+		)
+		(instances
+			(project "USBhub-keyboard"
+				(path "/7e7ab60e-0529-4ac7-b01d-b7311b7ba917"
+					(reference "J3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4148W")
+		(at 86.36 246.38 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6ad60f31-6843-4c4e-a16c-511d601b91b4")
+		(property "Reference" "D10"
+			(at 88.9 245.1099 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1N4148W"
+			(at 88.9 247.6499 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 90.805 246.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/85748/1n4148w.pdf"
+			(at 86.36 246.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "75V 0.15A Fast Switching Diode, SOD-123"
+			(at 86.36 246.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 86.36 246.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 86.36 246.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "0c8f4164-2521-4fb2-8a91-c71b3c38f900")
+		)
+		(pin "2"
+			(uuid "27ba37d9-85b7-4a45-a661-90a21c49b105")
+		)
+		(instances
+			(project "USBhub-keyboard"
+				(path "/7e7ab60e-0529-4ac7-b01d-b7311b7ba917"
+					(reference "D10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3.3V")
 		(at 236.22 113.03 0)
 		(unit 1)
@@ -11338,7 +14948,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 59.69 44.958 90)
 			(hide yes)
 			(show_name no)
@@ -11465,6 +15075,84 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+5V")
+		(at 152.4 34.29 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "73ea864a-4257-468c-8dc2-d99c8900e62b")
+		(property "Reference" "#PWR011"
+			(at 152.4 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+5V"
+			(at 152.4 29.21 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 152.4 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 152.4 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 152.4 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "02918fd7-e509-4458-9aba-fdd34695d2b0")
+		)
+		(instances
+			(project "USBhub-keyboard"
+				(path "/7e7ab60e-0529-4ac7-b01d-b7311b7ba917"
+					(reference "#PWR011")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 353.06 50.8 0)
 		(unit 1)
@@ -11498,7 +15186,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 354.0252 54.61 0)
 			(hide yes)
 			(show_name no)
@@ -11569,7 +15257,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100nF"
+		(property "Value" "0.1µF"
 			(at 349.25 40.6399 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11580,7 +15268,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 346.4052 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -11629,8 +15317,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+5V")
-		(at 91.44 138.43 270)
+		(lib_id "Diode:1N4148W")
+		(at 111.76 195.58 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11638,9 +15326,32 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "7edfd5f0-aebe-4d45-9c92-42a936a49440")
-		(property "Reference" "#PWR02"
-			(at 87.63 138.43 0)
+		(fields_autoplaced yes)
+		(uuid "7f1c8580-5b5e-4530-b4b2-717f900095cb")
+		(property "Reference" "D3"
+			(at 114.3 194.3099 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1N4148W"
+			(at 114.3 196.8499 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 116.205 195.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11650,19 +15361,8 @@
 				)
 			)
 		)
-		(property "Value" "+5V"
-			(at 93.472 136.906 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 91.44 138.43 0)
+		(property "Datasheet" "https://www.vishay.com/docs/85748/1n4148w.pdf"
+			(at 111.76 195.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11672,8 +15372,8 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
-			(at 91.44 138.43 0)
+		(property "Description" "75V 0.15A Fast Switching Diode, SOD-123"
+			(at 111.76 195.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11683,8 +15383,8 @@
 				)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 91.44 138.43 0)
+		(property "Sim.Device" "D"
+			(at 111.76 195.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11693,14 +15393,28 @@
 					(size 1.27 1.27)
 				)
 			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 111.76 195.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "27346a83-754f-4623-8dde-c0a19e4e1798")
 		)
 		(pin "1"
-			(uuid "19f66bb1-f369-4e9f-8df9-4c488e3ce542")
+			(uuid "cbf03a22-9b26-4250-8fbc-bd588667387f")
 		)
 		(instances
 			(project "USBhub-keyboard"
 				(path "/7e7ab60e-0529-4ac7-b01d-b7311b7ba917"
-					(reference "#PWR02")
+					(reference "D3")
 					(unit 1)
 				)
 			)
@@ -11785,6 +15499,293 @@
 		)
 	)
 	(symbol
+		(lib_id "Diode:1N4148W")
+		(at 60.96 246.38 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "821bd531-94f7-41af-82a7-8382d42eed12")
+		(property "Reference" "D9"
+			(at 63.5 245.1099 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1N4148W"
+			(at 63.5 247.6499 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 65.405 246.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/85748/1n4148w.pdf"
+			(at 60.96 246.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "75V 0.15A Fast Switching Diode, SOD-123"
+			(at 60.96 246.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 60.96 246.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 60.96 246.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "9b92ef9c-1105-47f1-b3cc-ad414574591b")
+		)
+		(pin "1"
+			(uuid "e6912c6f-48fa-468a-a1b0-c42ba5454735")
+		)
+		(instances
+			(project "USBhub-keyboard"
+				(path "/7e7ab60e-0529-4ac7-b01d-b7311b7ba917"
+					(reference "D9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "BrownSugar_KBD:SW_PUSH")
+		(at 104.14 267.97 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "83085859-6c7e-4f5b-b846-fb1e6ee7737a")
+		(property "Reference" "SW15"
+			(at 104.14 260.35 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_PUSH"
+			(at 104.14 262.89 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "BrownSugar_KBD:CherryMX_Hotswap_via_1U"
+			(at 104.14 267.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 104.14 267.97 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 104.14 267.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "0f616d06-8c56-4261-9d65-7c9ac3accf20")
+		)
+		(pin "1"
+			(uuid "4a7c18a7-7a1a-4f9c-a888-557e078d6b58")
+		)
+		(instances
+			(project "USBhub-keyboard"
+				(path "/7e7ab60e-0529-4ac7-b01d-b7311b7ba917"
+					(reference "SW15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4148W")
+		(at 86.36 220.98 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "839640f1-f184-499c-974a-5f2de86aa14c")
+		(property "Reference" "D6"
+			(at 88.9 219.7099 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1N4148W"
+			(at 88.9 222.2499 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 90.805 220.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/85748/1n4148w.pdf"
+			(at 86.36 220.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "75V 0.15A Fast Switching Diode, SOD-123"
+			(at 86.36 220.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 86.36 220.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 86.36 220.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "9e16c7ee-bed0-4c1b-8ae4-900b96c10799")
+		)
+		(pin "2"
+			(uuid "9daed0f1-a5b7-4bf6-8fea-236ef121354a")
+		)
+		(instances
+			(project "USBhub-keyboard"
+				(path "/7e7ab60e-0529-4ac7-b01d-b7311b7ba917"
+					(reference "D6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 293.37 39.37 0)
 		(unit 1)
@@ -11807,7 +15808,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100nF"
+		(property "Value" "0.1µF"
 			(at 297.18 40.6399 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11818,7 +15819,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 294.3352 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -11897,7 +15898,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 144.78 118.618 90)
 			(hide yes)
 			(show_name no)
@@ -11979,7 +15980,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 234.442 116.84 90)
 			(hide yes)
 			(show_name no)
@@ -12028,6 +16029,85 @@
 		)
 	)
 	(symbol
+		(lib_id "BrownSugar_KBD:SW_PUSH")
+		(at 104.14 217.17 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8bf7af8a-aa2a-484e-ada7-41faa4bf71e5")
+		(property "Reference" "SW7"
+			(at 104.14 209.55 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_PUSH"
+			(at 104.14 212.09 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "BrownSugar_KBD:CherryMX_Hotswap_via_1U"
+			(at 104.14 217.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 104.14 217.17 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 104.14 217.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "43091419-0489-461b-b15e-71008433daa4")
+		)
+		(pin "1"
+			(uuid "b085fd55-f9f1-4474-922e-97ef057f1fa3")
+		)
+		(instances
+			(project "USBhub-keyboard"
+				(path "/7e7ab60e-0529-4ac7-b01d-b7311b7ba917"
+					(reference "SW7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 163.83 113.03 0)
 		(unit 1)
@@ -12060,7 +16140,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 164.7952 116.84 0)
 			(hide yes)
 			(show_name no)
@@ -12296,7 +16376,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-223-3_TabPin2"
 			(at 350.52 222.25 0)
 			(hide yes)
 			(show_name no)
@@ -12349,6 +16429,349 @@
 		)
 	)
 	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 73.66 35.56 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "95f5107b-34bf-4ec6-97e8-47a0b2035f61")
+		(property "Reference" "#FLG01"
+			(at 73.66 33.655 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 73.66 30.48 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 73.66 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 73.66 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 73.66 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "1f3e476f-bc24-4fa5-bb35-49b53f759724")
+		)
+		(instances
+			(project "USBhub-keyboard"
+				(path "/7e7ab60e-0529-4ac7-b01d-b7311b7ba917"
+					(reference "#FLG01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4148W")
+		(at 86.36 271.78 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9a761f08-2fe4-4c0d-b56f-cb81340e4003")
+		(property "Reference" "D14"
+			(at 88.9 270.5099 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1N4148W"
+			(at 88.9 273.0499 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 90.805 271.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/85748/1n4148w.pdf"
+			(at 86.36 271.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "75V 0.15A Fast Switching Diode, SOD-123"
+			(at 86.36 271.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 86.36 271.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 86.36 271.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "92caad14-f93e-42d1-a285-5fd45af2ec09")
+		)
+		(pin "2"
+			(uuid "695b2305-93d6-40a1-b6ee-16313eada39b")
+		)
+		(instances
+			(project "USBhub-keyboard"
+				(path "/7e7ab60e-0529-4ac7-b01d-b7311b7ba917"
+					(reference "D14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "BrownSugar_KBD:SW_PUSH")
+		(at 78.74 267.97 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9b173a4d-e599-4a62-b743-8722d813a84b")
+		(property "Reference" "SW14"
+			(at 78.74 260.35 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_PUSH"
+			(at 78.74 262.89 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "BrownSugar_KBD:CherryMX_Hotswap_via_1U"
+			(at 78.74 267.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 78.74 267.97 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 78.74 267.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "68c92e2c-6ffa-4375-b8e8-92256f031fcc")
+		)
+		(pin "1"
+			(uuid "fc4446ec-b5b6-4b9e-bbee-754c3617f180")
+		)
+		(instances
+			(project "USBhub-keyboard"
+				(path "/7e7ab60e-0529-4ac7-b01d-b7311b7ba917"
+					(reference "SW14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 152.4 41.91 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9c9415c2-ec2b-46d3-ad33-a33aec362eac")
+		(property "Reference" "C3"
+			(at 156.21 40.6399 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0.1µF"
+			(at 156.21 43.1799 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 153.3652 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 152.4 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 152.4 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "56e0a632-5252-4de1-8faa-7e017a5f01a8")
+		)
+		(pin "2"
+			(uuid "8a449a0c-3eb3-4d41-a2a2-5460bc133b20")
+		)
+		(instances
+			(project "USBhub-keyboard"
+				(path "/7e7ab60e-0529-4ac7-b01d-b7311b7ba917"
+					(reference "C3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 90.17 111.76 0)
 		(unit 1)
@@ -12381,7 +16804,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 91.1352 115.57 0)
 			(hide yes)
 			(show_name no)
@@ -12441,7 +16864,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9dadaefa-c0b7-41fc-9efc-bc66c8aa5799")
-		(property "Reference" "SW2"
+		(property "Reference" "BSW2"
 			(at 237.49 125.7299 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12452,7 +16875,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "SW_MEC_5E"
+		(property "Value" "RESETSW"
 			(at 237.49 128.2699 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12463,7 +16886,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TS04-66-50-BK-260-SMT:SW_TS04-66-50-BK-260-SMT"
 			(at 228.6 127 0)
 			(hide yes)
 			(show_name no)
@@ -12511,7 +16934,7 @@
 		(instances
 			(project "USBhub-keyboard"
 				(path "/7e7ab60e-0529-4ac7-b01d-b7311b7ba917"
-					(reference "SW2")
+					(reference "BSW2")
 					(unit 1)
 				)
 			)
@@ -12752,8 +17175,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:USB_C_Receptacle_USB2.0_16P")
-		(at 124.46 124.46 0)
+		(lib_id "Diode:1N4148W")
+		(at 137.16 220.98 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -12762,29 +17185,31 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "a0536f50-8504-490d-a406-1e1d5064e045")
-		(property "Reference" "J5"
-			(at 124.46 101.6 0)
+		(uuid "a10fefbc-18e3-4ffc-8a90-130820ae2ab3")
+		(property "Reference" "D8"
+			(at 139.7 219.7099 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
-		(property "Value" "USB_C_Receptacle_USB2.0_16P"
-			(at 124.46 104.14 0)
+		(property "Value" "1N4148W"
+			(at 139.7 222.2499 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
-		(property "Footprint" ""
-			(at 128.27 124.46 0)
+		(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 141.605 220.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12794,8 +17219,8 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.usb.org/sites/default/files/documents/usb_type-c.zip"
-			(at 128.27 124.46 0)
+		(property "Datasheet" "https://www.vishay.com/docs/85748/1n4148w.pdf"
+			(at 137.16 220.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12805,8 +17230,8 @@
 				)
 			)
 		)
-		(property "Description" "USB 2.0-only 16P Type-C Receptacle connector"
-			(at 124.46 124.46 0)
+		(property "Description" "75V 0.15A Fast Switching Diode, SOD-123"
+			(at 137.16 220.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12816,61 +17241,38 @@
 				)
 			)
 		)
-		(pin "A4"
-			(uuid "71819fed-e3d8-415b-8cd2-bca1a8a6799a")
+		(property "Sim.Device" "D"
+			(at 137.16 220.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
-		(pin "B4"
-			(uuid "36694db2-1234-4360-9b80-5987318e73f0")
+		(property "Sim.Pins" "1=K 2=A"
+			(at 137.16 220.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
-		(pin "B1"
-			(uuid "1c9b66cf-b567-4a56-9dc5-0e5ca5c3dfc4")
+		(pin "2"
+			(uuid "7be9bb92-a2fb-4be7-8655-282d0f2c02bd")
 		)
-		(pin "B12"
-			(uuid "60fb4b2c-bb8e-4780-9017-14758a1511e1")
-		)
-		(pin "B7"
-			(uuid "266d824b-efc5-48b1-906c-cdc6a87ffae0")
-		)
-		(pin "A6"
-			(uuid "ebb69d7c-e29b-4bd1-903f-174866b03e89")
-		)
-		(pin "A8"
-			(uuid "604b38c2-ef55-4ed3-a241-fe217cba3520")
-		)
-		(pin "A7"
-			(uuid "6cf0f4fa-828f-4324-855c-20324301d7d1")
-		)
-		(pin "A9"
-			(uuid "8bbb7e45-abee-4d16-b73c-3674d90fc177")
-		)
-		(pin "B9"
-			(uuid "1b6467a9-d9e4-4f2c-b065-57cd3342ad92")
-		)
-		(pin "A12"
-			(uuid "a8554348-41ea-4009-a3f7-beb24c990dd7")
-		)
-		(pin "A1"
-			(uuid "30379062-1525-42bd-b677-226866858215")
-		)
-		(pin "A5"
-			(uuid "fe1f34be-74bd-4efc-ae98-0e0cbd8dc4c1")
-		)
-		(pin "B5"
-			(uuid "ab0c1bc4-f57b-43e2-9087-89a375edd92c")
-		)
-		(pin "B6"
-			(uuid "b0b22700-01bb-4bd3-a0db-3009f2ea9ed6")
-		)
-		(pin "B8"
-			(uuid "e999b40c-68b5-4a35-9d73-f9abb20dc86c")
-		)
-		(pin "SH"
-			(uuid "2427d4a0-2f63-4d26-a71f-a5dedda0117f")
+		(pin "1"
+			(uuid "bdbe30e4-5042-4b7a-a170-4eb7b2e85630")
 		)
 		(instances
 			(project "USBhub-keyboard"
 				(path "/7e7ab60e-0529-4ac7-b01d-b7311b7ba917"
-					(reference "J5")
+					(reference "D8")
 					(unit 1)
 				)
 			)
@@ -12985,7 +17387,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 144.78 116.078 90)
 			(hide yes)
 			(show_name no)
@@ -13056,7 +17458,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100nF"
+		(property "Value" "0.1µF"
 			(at 383.54 40.6399 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13067,7 +17469,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 380.6952 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -13116,6 +17518,110 @@
 		)
 	)
 	(symbol
+		(lib_id "Diode:1N4148W")
+		(at 60.96 220.98 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a6c1a164-930c-4501-a07b-060d1b33603f")
+		(property "Reference" "D5"
+			(at 63.5 219.7099 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1N4148W"
+			(at 63.5 222.2499 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 65.405 220.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/85748/1n4148w.pdf"
+			(at 60.96 220.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "75V 0.15A Fast Switching Diode, SOD-123"
+			(at 60.96 220.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 60.96 220.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 60.96 220.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "8e332c0c-393b-4aa8-92b7-8862416d6931")
+		)
+		(pin "1"
+			(uuid "fae9b15b-c130-4416-b352-f226cb69fc6b")
+		)
+		(instances
+			(project "USBhub-keyboard"
+				(path "/7e7ab60e-0529-4ac7-b01d-b7311b7ba917"
+					(reference "D5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:Crystal_GND2")
 		(at 229.87 162.56 90)
 		(unit 1)
@@ -13149,7 +17655,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Crystal:Crystal_AT310_D3.0mm_L10.0mm_Horizontal_1EP_style1"
+		(property "Footprint" "Crystal:Crystal_SMD_3225-4Pin_3.2x2.5mm"
 			(at 229.87 162.56 0)
 			(hide yes)
 			(show_name no)
@@ -13234,7 +17740,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 259.842 191.77 90)
 			(hide yes)
 			(show_name no)
@@ -13277,6 +17783,84 @@
 			(project "USBhub-keyboard"
 				(path "/7e7ab60e-0529-4ac7-b01d-b7311b7ba917"
 					(reference "R10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 85.09 138.43 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a8dd7fa7-4dac-4704-bfb2-c9eb0e27380b")
+		(property "Reference" "#PWR02"
+			(at 85.09 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+5V"
+			(at 85.09 133.35 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 85.09 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 85.09 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 85.09 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "236b4b8e-cc44-4459-95cf-e116b1e045ef")
+		)
+		(instances
+			(project "USBhub-keyboard"
+				(path "/7e7ab60e-0529-4ac7-b01d-b7311b7ba917"
+					(reference "#PWR02")
 					(unit 1)
 				)
 			)
@@ -13361,131 +17945,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:USB_C_Receptacle_USB2.0_16P")
-		(at 38.1 50.8 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b14a39bb-acb7-43eb-b430-e8254a3edbb6")
-		(property "Reference" "J4"
-			(at 38.1 27.94 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "USB_C_Receptacle_USB2.0_16P"
-			(at 38.1 30.48 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 41.91 50.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.usb.org/sites/default/files/documents/usb_type-c.zip"
-			(at 41.91 50.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "USB 2.0-only 16P Type-C Receptacle connector"
-			(at 38.1 50.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "A8"
-			(uuid "3109332b-64ba-41b2-bbfd-d9529dd76c36")
-		)
-		(pin "B5"
-			(uuid "3eb5cba3-811c-451a-adc7-685ef1a11d1f")
-		)
-		(pin "B7"
-			(uuid "336ae5d0-0674-4a63-9906-d1ee20904921")
-		)
-		(pin "A1"
-			(uuid "341ba4b1-8bbf-4d96-aadd-3ee5a675d76f")
-		)
-		(pin "A6"
-			(uuid "917ab789-485d-41e5-9ad7-50dc1072f706")
-		)
-		(pin "B1"
-			(uuid "3870770d-ba1e-4a3d-9cb7-304eaf02797d")
-		)
-		(pin "A4"
-			(uuid "ffad5a88-a8c5-4472-9137-b22e0dbfc138")
-		)
-		(pin "A5"
-			(uuid "07ba5f1d-458f-4c39-8104-6c5dc88cd30d")
-		)
-		(pin "A12"
-			(uuid "8025cc51-6d61-47ac-9b03-07626bc38097")
-		)
-		(pin "B6"
-			(uuid "f5c42f88-bec9-4217-9dbe-5e4b10329583")
-		)
-		(pin "B4"
-			(uuid "a45a3aba-9ea1-48dc-a2e0-f0ef3a01192a")
-		)
-		(pin "B8"
-			(uuid "0d75878b-3325-46e4-b4bd-3499484f31da")
-		)
-		(pin "A7"
-			(uuid "96a2e46a-cd13-4595-a412-a93fae275240")
-		)
-		(pin "B9"
-			(uuid "b6d2d204-591d-49f4-9a55-0c7fb79c7db1")
-		)
-		(pin "B12"
-			(uuid "f21e2c03-3d92-447d-9c74-fc00fd0948f1")
-		)
-		(pin "SH"
-			(uuid "f753d3e5-a337-4dcc-be12-6a3d7848f789")
-		)
-		(pin "A9"
-			(uuid "0b2ecb31-7b8b-4b21-91cd-b73d2dbb9852")
-		)
-		(instances
-			(project "USBhub-keyboard"
-				(path "/7e7ab60e-0529-4ac7-b01d-b7311b7ba917"
-					(reference "J4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 288.29 191.77 0)
 		(unit 1)
@@ -13519,7 +17978,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 286.512 191.77 90)
 			(hide yes)
 			(show_name no)
@@ -13590,7 +18049,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100nF"
+		(property "Value" "0.1µF"
 			(at 337.82 40.6399 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13601,7 +18060,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 334.9752 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -13760,7 +18219,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Crystal:Crystal_SMD_3225-4Pin_3.2x2.5mm"
 			(at 74.93 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -13844,7 +18303,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 338.7852 236.22 0)
 			(hide yes)
 			(show_name no)
@@ -13925,7 +18384,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 88.5952 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -14007,7 +18466,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 301.9552 54.61 0)
 			(hide yes)
 			(show_name no)
@@ -14056,6 +18515,85 @@
 		)
 	)
 	(symbol
+		(lib_id "BrownSugar_KBD:SW_PUSH")
+		(at 53.34 267.97 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bf067012-6673-4aa1-a152-c1313658e458")
+		(property "Reference" "SW13"
+			(at 53.34 260.35 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_PUSH"
+			(at 53.34 262.89 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "BrownSugar_KBD:CherryMX_Hotswap_via_1U"
+			(at 53.34 267.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 53.34 267.97 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 53.34 267.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "6aa82057-b16c-4e53-8dc9-ac76674a4ebd")
+		)
+		(pin "1"
+			(uuid "838b7b69-f6bd-486d-970f-0a5345ab38f2")
+		)
+		(instances
+			(project "USBhub-keyboard"
+				(path "/7e7ab60e-0529-4ac7-b01d-b7311b7ba917"
+					(reference "SW13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Switch:SW_MEC_5E")
 		(at 212.09 127 90)
 		(unit 1)
@@ -14067,7 +18605,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bf0e78d2-6180-4e4e-b830-860c002b0280")
-		(property "Reference" "SW1"
+		(property "Reference" "BSW1"
 			(at 213.36 125.7299 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14089,7 +18627,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Button_Switch_SMD:SW_MEC_5GSH9"
+		(property "Footprint" "TS04-66-50-BK-260-SMT:SW_TS04-66-50-BK-260-SMT"
 			(at 204.47 127 0)
 			(hide yes)
 			(show_name no)
@@ -14137,7 +18675,7 @@
 		(instances
 			(project "USBhub-keyboard"
 				(path "/7e7ab60e-0529-4ac7-b01d-b7311b7ba917"
-					(reference "SW1")
+					(reference "BSW1")
 					(unit 1)
 				)
 			)
@@ -14174,7 +18712,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 373.38 72.898 90)
 			(hide yes)
 			(show_name no)
@@ -14223,6 +18761,85 @@
 		)
 	)
 	(symbol
+		(lib_id "BrownSugar_KBD:SW_PUSH")
+		(at 129.54 242.57 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c1d4bc7f-bd09-471c-bfdd-f3762126c528")
+		(property "Reference" "SW12"
+			(at 129.54 234.95 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_PUSH"
+			(at 129.54 237.49 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "BrownSugar_KBD:CherryMX_Hotswap_via_1U"
+			(at 129.54 242.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 129.54 242.57 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 129.54 242.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "c0f00ccc-5349-46d5-b7df-0fe8f2576c8e")
+		)
+		(pin "1"
+			(uuid "ff3ef9a1-2642-4b26-8190-30cab79c5093")
+		)
+		(instances
+			(project "USBhub-keyboard"
+				(path "/7e7ab60e-0529-4ac7-b01d-b7311b7ba917"
+					(reference "SW12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 81.28 124.46 0)
 		(unit 1)
@@ -14255,7 +18872,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 82.2452 128.27 0)
 			(hide yes)
 			(show_name no)
@@ -14298,6 +18915,110 @@
 			(project "USBhub-keyboard"
 				(path "/7e7ab60e-0529-4ac7-b01d-b7311b7ba917"
 					(reference "C11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4148W")
+		(at 137.16 246.38 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c7bbf84d-cc60-4893-8745-98af6a8324ce")
+		(property "Reference" "D12"
+			(at 139.7 245.1099 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1N4148W"
+			(at 139.7 247.6499 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 141.605 246.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/85748/1n4148w.pdf"
+			(at 137.16 246.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "75V 0.15A Fast Switching Diode, SOD-123"
+			(at 137.16 246.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 137.16 246.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 137.16 246.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "cc9f7dca-f1fd-407a-a250-895aff2d2157")
+		)
+		(pin "2"
+			(uuid "eeba6f99-5acc-46cb-bd35-faf7337813af")
+		)
+		(instances
+			(project "USBhub-keyboard"
+				(path "/7e7ab60e-0529-4ac7-b01d-b7311b7ba917"
+					(reference "D12")
 					(unit 1)
 				)
 			)
@@ -14428,7 +19149,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 225.552 52.07 90)
 			(hide yes)
 			(show_name no)
@@ -14555,8 +19276,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:USB_A")
-		(at 129.54 78.74 0)
+		(lib_id "BrownSugar_KBD:SW_PUSH")
+		(at 104.14 191.77 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -14565,9 +19286,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "d881b49c-0ba1-44f8-a062-de209623a25c")
-		(property "Reference" "J3"
-			(at 129.54 66.04 0)
+		(uuid "d8caf4f2-bffa-46c9-89dd-a70852379786")
+		(property "Reference" "SW3"
+			(at 104.14 184.15 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14576,8 +19297,8 @@
 				)
 			)
 		)
-		(property "Value" "USB_A"
-			(at 129.54 68.58 0)
+		(property "Value" "SW_PUSH"
+			(at 104.14 186.69 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14586,8 +19307,8 @@
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 133.35 80.01 0)
+		(property "Footprint" "BrownSugar_KBD:CherryMX_Hotswap_via_1U"
+			(at 104.14 191.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14598,8 +19319,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 133.35 80.01 0)
-			(hide yes)
+			(at 104.14 191.77 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14608,8 +19328,8 @@
 				)
 			)
 		)
-		(property "Description" "USB Type A connector"
-			(at 129.54 78.74 0)
+		(property "Description" ""
+			(at 104.14 191.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14618,26 +19338,17 @@
 					(size 1.27 1.27)
 				)
 			)
-		)
-		(pin "SH"
-			(uuid "9a686b5a-38c4-4595-b109-99136d0fd6b8")
-		)
-		(pin "3"
-			(uuid "535592c7-68e0-4b8e-a997-a9612956f2c8")
 		)
 		(pin "1"
-			(uuid "a3cf941c-925b-46ff-b2d9-8c7282ded251")
+			(uuid "b6b0f075-af2e-40eb-8277-70808179e754")
 		)
 		(pin "2"
-			(uuid "a5ea02c8-a98c-46dd-8edb-e72097de3e78")
-		)
-		(pin "4"
-			(uuid "fadbe4bd-81f5-48c6-86f3-7ebda7a9dc5c")
+			(uuid "ba8c8f2f-6e54-49f8-af4c-4ecf65864a41")
 		)
 		(instances
 			(project "USBhub-keyboard"
 				(path "/7e7ab60e-0529-4ac7-b01d-b7311b7ba917"
-					(reference "J3")
+					(reference "SW3")
 					(unit 1)
 				)
 			)
@@ -14674,7 +19385,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 213.36 166.6748 0)
 			(hide yes)
 			(show_name no)
@@ -14801,6 +19512,110 @@
 		)
 	)
 	(symbol
+		(lib_id "Diode:1N4148W")
+		(at 137.16 195.58 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "dc62ca4d-de23-48fa-98b3-31529ec2829d")
+		(property "Reference" "D4"
+			(at 139.7 194.3099 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1N4148W"
+			(at 139.7 196.8499 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 141.605 195.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/85748/1n4148w.pdf"
+			(at 137.16 195.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "75V 0.15A Fast Switching Diode, SOD-123"
+			(at 137.16 195.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 137.16 195.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 137.16 195.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "abecb13b-7585-442c-92ac-974606ffac13")
+		)
+		(pin "1"
+			(uuid "bdb97f25-8874-470c-b936-8b2460a1b6c8")
+		)
+		(instances
+			(project "USBhub-keyboard"
+				(path "/7e7ab60e-0529-4ac7-b01d-b7311b7ba917"
+					(reference "D4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 163.83 151.13 0)
 		(unit 1)
@@ -14873,6 +19688,162 @@
 			(project "USBhub-keyboard"
 				(path "/7e7ab60e-0529-4ac7-b01d-b7311b7ba917"
 					(reference "#PWR013")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 217.17 226.06 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e006a980-9191-4946-befb-40dce233ab1f")
+		(property "Reference" "#PWR038"
+			(at 217.17 229.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 217.17 220.98 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 217.17 226.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 217.17 226.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 217.17 226.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ddc6e0e3-c3df-4f4a-a266-ad277f9fe611")
+		)
+		(instances
+			(project "USBhub-keyboard"
+				(path "/7e7ab60e-0529-4ac7-b01d-b7311b7ba917"
+					(reference "#PWR038")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 152.4 55.88 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e2506c08-7c56-4733-bf22-54c6d7b27ab3")
+		(property "Reference" "#PWR03"
+			(at 152.4 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 152.4 60.96 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 152.4 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 152.4 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 152.4 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "348aa97a-6dfa-4889-8355-ac799fed0ca5")
+		)
+		(instances
+			(project "USBhub-keyboard"
+				(path "/7e7ab60e-0529-4ac7-b01d-b7311b7ba917"
+					(reference "#PWR03")
 					(unit 1)
 				)
 			)
@@ -14988,7 +19959,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 79.7052 151.13 0)
 			(hide yes)
 			(show_name no)
@@ -15215,7 +20186,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100nF"
+		(property "Value" "0.1µF"
 			(at 360.68 40.6399 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15226,7 +20197,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 357.8352 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -15307,7 +20278,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 88.5952 151.13 0)
 			(hide yes)
 			(show_name no)
@@ -15350,6 +20321,250 @@
 			(project "USBhub-keyboard"
 				(path "/7e7ab60e-0529-4ac7-b01d-b7311b7ba917"
 					(reference "C12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4148W")
+		(at 137.16 271.78 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "edf65889-2130-4f08-9328-50da205ac709")
+		(property "Reference" "D16"
+			(at 139.7 270.5099 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1N4148W"
+			(at 139.7 273.0499 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 141.605 271.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/85748/1n4148w.pdf"
+			(at 137.16 271.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "75V 0.15A Fast Switching Diode, SOD-123"
+			(at 137.16 271.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 137.16 271.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 137.16 271.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "c7aa6c28-22a0-4b0c-a294-1c5cfc06156c")
+		)
+		(pin "1"
+			(uuid "ab37a83a-df44-4615-808d-98240f79fd49")
+		)
+		(instances
+			(project "USBhub-keyboard"
+				(path "/7e7ab60e-0529-4ac7-b01d-b7311b7ba917"
+					(reference "D16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "USB-C:USB_C_Receptacle_USB2.0_16P_V2")
+		(at 38.1 50.8 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "eef7a884-9352-4923-a48a-d857bcc3e228")
+		(property "Reference" "J4"
+			(at 38.1 27.94 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "USB_C_Receptacle_USB2.0_16P_V2"
+			(at 38.1 30.48 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "USB-C:CONN_8p94X6p5X3p16_12L_GCC"
+			(at 41.91 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.usb.org/sites/default/files/documents/usb_type-c.zip"
+			(at 41.91 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "USB 2.0-only 16P Type-C Receptacle connector"
+			(at 38.1 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "16"
+			(uuid "5036d91f-2a51-4264-90e6-eeb5129d5999")
+		)
+		(pin "14"
+			(uuid "75484145-e0e1-4ca2-bbd9-88a9847891f9")
+		)
+		(pin "B5"
+			(uuid "3eeb8fd4-2922-4952-86f9-d7891d6ae9af")
+		)
+		(pin "B8"
+			(uuid "68c540a9-c34f-4b30-8118-3eb3488d0d31")
+		)
+		(pin "A6"
+			(uuid "20c1b81f-5ac0-43e3-bd65-b830506c69fc")
+		)
+		(pin "A5"
+			(uuid "7380c5f0-3f4b-4a44-90f8-c41f7526cb3e")
+		)
+		(pin "A7"
+			(uuid "108e59ef-dc10-40fb-be60-0139c31078bf")
+		)
+		(pin "B4/A9"
+			(uuid "933df5fb-d4d6-4001-8342-2b96fa675220")
+		)
+		(pin "15"
+			(uuid "143134df-ffe6-44dc-af2b-2e915c61490f")
+		)
+		(pin "A4/B9"
+			(uuid "11236ef4-0584-4f06-8546-873d46b5dc3f")
+		)
+		(pin "B6"
+			(uuid "33caaa76-7bc3-497b-9c4e-c59497935558")
+		)
+		(pin "B12"
+			(uuid "5c518625-b29e-4ee2-8068-dbbd6364ce09")
+		)
+		(pin "B1/A12"
+			(uuid "9bca72e3-5da4-495c-ab14-79063532b517")
+		)
+		(pin "A12"
+			(uuid "bd0ccd61-4763-411e-b2f1-cc5220d5212c")
+		)
+		(pin "A8"
+			(uuid "ef3bbd5f-7413-43c5-aa93-0906a5b20523")
+		)
+		(pin "13"
+			(uuid "be76083c-31ba-4294-b77c-b1a7b7e4aa2e")
+		)
+		(pin "A9"
+			(uuid "b68aeca8-ab91-417d-8f43-66396961ecfa")
+		)
+		(pin "A1/B12"
+			(uuid "4744bb30-5eb1-40a8-b409-db1cc561de42")
+		)
+		(pin "B1"
+			(uuid "fe69076f-85a7-42e6-be5d-d15230bbffd8")
+		)
+		(pin "B4"
+			(uuid "1b6d186f-8bc6-4663-85bb-a9fea8189ad5")
+		)
+		(pin "B7"
+			(uuid "e7005063-85e5-41dd-b245-d4468851b35a")
+		)
+		(pin "B9"
+			(uuid "9f238436-cfc0-4043-8d8d-af9e6ce3b72b")
+		)
+		(instances
+			(project "USBhub-keyboard"
+				(path "/7e7ab60e-0529-4ac7-b01d-b7311b7ba917"
+					(reference "J4")
 					(unit 1)
 				)
 			)
@@ -15512,6 +20727,85 @@
 		)
 	)
 	(symbol
+		(lib_id "BrownSugar_KBD:SW_PUSH")
+		(at 53.34 242.57 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f7d9d2a0-6bee-4d5f-8291-042f111e3d09")
+		(property "Reference" "SW9"
+			(at 53.34 234.95 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_PUSH"
+			(at 53.34 237.49 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "BrownSugar_KBD:CherryMX_Hotswap_via_1U"
+			(at 53.34 242.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 53.34 242.57 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 53.34 242.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "0a85d167-d9d2-4df6-9cb0-290c5db0a9d6")
+		)
+		(pin "2"
+			(uuid "c747dae8-ae7e-4cab-822e-060b2184a3a6")
+		)
+		(instances
+			(project "USBhub-keyboard"
+				(path "/7e7ab60e-0529-4ac7-b01d-b7311b7ba917"
+					(reference "SW9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3.3V")
 		(at 261.62 187.96 0)
 		(unit 1)
@@ -15620,7 +20914,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 213.36 156.5148 0)
 			(hide yes)
 			(show_name no)
@@ -15701,7 +20995,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 82.2452 115.57 0)
 			(hide yes)
 			(show_name no)
@@ -15750,8 +21044,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 152.4 41.91 0)
+		(lib_id "BrownSugar_KBD:SW_PUSH")
+		(at 104.14 242.57 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -15760,31 +21054,29 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "fc3774e5-0bb4-4b59-877e-406c5f9ee862")
-		(property "Reference" "C3"
-			(at 156.21 40.6399 0)
+		(uuid "fdd74ae3-a8ec-4482-8829-2acc6e0a4e31")
+		(property "Reference" "SW11"
+			(at 104.14 234.95 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "0.1µF"
-			(at 156.21 43.1799 0)
+		(property "Value" "SW_PUSH"
+			(at 104.14 237.49 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 153.3652 45.72 0)
+		(property "Footprint" "BrownSugar_KBD:CherryMX_Hotswap_via_1U"
+			(at 104.14 242.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15795,8 +21087,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 152.4 41.91 0)
-			(hide yes)
+			(at 104.14 242.57 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15805,8 +21096,8 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
-			(at 152.4 41.91 0)
+		(property "Description" ""
+			(at 104.14 242.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15815,17 +21106,17 @@
 					(size 1.27 1.27)
 				)
 			)
-		)
-		(pin "2"
-			(uuid "62686180-33c3-4f3d-968f-f60319f61a6a")
 		)
 		(pin "1"
-			(uuid "35f60816-9008-4a71-8e40-bb4d9becf3cc")
+			(uuid "9f1a995a-c349-406e-8cfb-c5a45d6aa655")
+		)
+		(pin "2"
+			(uuid "0568d859-778a-490a-b300-67983fc5a645")
 		)
 		(instances
 			(project "USBhub-keyboard"
 				(path "/7e7ab60e-0529-4ac7-b01d-b7311b7ba917"
-					(reference "C3")
+					(reference "SW11")
 					(unit 1)
 				)
 			)
@@ -15862,7 +21153,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 373.38 67.818 90)
 			(hide yes)
 			(show_name no)
