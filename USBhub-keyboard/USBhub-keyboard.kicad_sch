@@ -10729,7 +10729,7 @@
 				)
 			)
 		)
-		(property "Value" "120Ω"
+		(property "Value" "120"
 			(at 84.582 29.21 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11070,7 +11070,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1µF"
+		(property "Value" "0.1uF"
 			(at 255.27 53.3399 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11151,7 +11151,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1µF"
+		(property "Value" "0.1uF"
 			(at 80.264 40.64 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12573,7 +12573,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1µF"
+		(property "Value" "0.1uF"
 			(at 156.21 78.7399 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12733,7 +12733,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1µF"
+		(property "Value" "0.1uF"
 			(at 394.97 40.6399 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13520,7 +13520,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1µF"
+		(property "Value" "0.1uF"
 			(at 326.39 40.6399 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13679,7 +13679,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1µF"
+		(property "Value" "0.1uF"
 			(at 366.014 234.95 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13838,7 +13838,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "4.7µF"
+		(property "Value" "4.7uF"
 			(at 91.44 126.746 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13920,7 +13920,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1µF"
+		(property "Value" "0.1uF"
 			(at 372.11 40.6399 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14284,7 +14284,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1µF"
+		(property "Value" "0.1uF"
 			(at 308.61 40.6399 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15171,7 +15171,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1µF"
+		(property "Value" "1uF"
 			(at 356.87 52.0699 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15253,7 +15253,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1µF"
+		(property "Value" "0.1uF"
 			(at 349.25 40.6399 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15804,7 +15804,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1µF"
+		(property "Value" "0.1uF"
 			(at 297.18 40.6399 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16125,7 +16125,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1µF"
+		(property "Value" "0.1uF"
 			(at 165.354 115.316 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16708,7 +16708,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1µF"
+		(property "Value" "0.1uF"
 			(at 156.21 43.1799 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16789,7 +16789,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "4.7µF"
+		(property "Value" "4.7uF"
 			(at 91.44 114.3 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17454,7 +17454,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1µF"
+		(property "Value" "0.1uF"
 			(at 383.54 40.6399 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18045,7 +18045,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1µF"
+		(property "Value" "0.1uF"
 			(at 337.82 40.6399 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18204,7 +18204,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "12M/20pF/20PPM"
+		(property "Value" "12MHz"
 			(at 83.82 101.092 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18288,7 +18288,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1µF"
+		(property "Value" "0.1uF"
 			(at 339.852 234.696 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18369,7 +18369,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10µF"
+		(property "Value" "10uF"
 			(at 90.678 40.64 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18451,7 +18451,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1µF"
+		(property "Value" "1uF"
 			(at 304.8 52.0699 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18857,7 +18857,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1µF"
+		(property "Value" "0.1uF"
 			(at 82.042 126.492 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19944,7 +19944,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "4.7µF"
+		(property "Value" "4.7uF"
 			(at 80.264 149.86 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20182,7 +20182,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1µF"
+		(property "Value" "0.1uF"
 			(at 360.68 40.6399 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20263,7 +20263,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1µF"
+		(property "Value" "0.1uF"
 			(at 88.9 149.86 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21059,7 +21059,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1µF"
+		(property "Value" "0.1uF"
 			(at 82.296 114.046 0)
 			(show_name no)
 			(do_not_autoplace no)
