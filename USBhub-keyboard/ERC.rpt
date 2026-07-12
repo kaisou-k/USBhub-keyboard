@@ -1,12 +1,21 @@
-ERC report (2026-07-11T01:48:19, Encoding UTF8)
-Report includes: Errors
+ERC report (2026-07-12T08:44:36, Encoding UTF8)
+Report includes: Errors, Warnings
 
 ***** Sheet /
-[power_pin_not_driven]: Input Power pin not driven by any Output Power pins
-    ; error
-    @(129.54 mm, 53.34 mm): Symbol J2 Pin 4 [GND, 電源入力, ライン]
+[pin_to_pin]: ピンのタイプ 双方向 と 電源出力 が接続されています
+    ; warning
+    @(68.58 mm, 125.73 mm): Symbol U1 Pin 12 [GND, 双方向, ライン]
+    @(81.28 mm, 74.93 mm): Symbol #FLG02 Pin 1 [電源出力, ライン]
+[pin_to_pin]: ピンのタイプ 双方向 と 電源出力 が接続されています
+    ; warning
+    @(68.58 mm, 130.81 mm): Symbol U1 Pin 11 [VDD5, 双方向, ライン]
+    @(87.63 mm, 24.13 mm): Symbol #FLG03 Pin 1 [電源出力, ライン]
+[multiple_net_names]: DDM4 と QSPI_SD0 は、ともに同じ配線に接続されています; DDM4 をネットリスト用ラベルとして選択しました
+    ; warning
+    @(27.94 mm, 105.41 mm): Global Label 'DDM4'
+    @(217.17 mm, 74.93 mm): Label 'QSPI_SD0'
 
- ** ERC messages: 1  Errors 1  Warnings 0
+ ** ERC messages: 3  Errors 0  Warnings 3
 
  ** Ignored checks:
     - Global label only appears once in the schematic

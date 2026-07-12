@@ -1,0 +1,78 @@
+** Drc report for USBhub-keyboard.kicad_pcb **
+** Created on 2026-07-12T08:07:33 **
+** Report includes: Errors **
+
+** Found 5 DRC violations **
+[clearance]: クリアランス違反 ( クリアランス 0.2000 mm; 現状 0.1100 mm)
+    Local override; error
+    @(89.2250 mm, 52.5050 mm): Track [Net-(C1-Pad1)] on B.Cu, length 8.4950 mm
+    @(88.7150 mm, 59.1750 mm): Via [GND] on F.Cu - B.Cu
+[starved_thermal]: ゾーンへのサーマルリリーフ接続が不完全 (レイヤー B.Cu; ゾーン 最小スポーク数: 2; 現状 1)
+    Local override; error
+    @(79.9450 mm, 39.7250 mm): Zone 'GND' [GND] on F.Cu and B.Cu, priority 3
+    @(125.0850 mm, 98.0200 mm): Pad 2 [GND] of C15 on B.Cu
+[starved_thermal]: ゾーンへのサーマルリリーフ接続が不完全 (レイヤー B.Cu; ゾーン 最小スポーク数: 2; 現状 1)
+    Local override; error
+    @(79.9450 mm, 39.7250 mm): Zone 'GND' [GND] on F.Cu and B.Cu, priority 3
+    @(123.4050 mm, 98.0150 mm): Pad 2 [GND] of C20 on B.Cu
+[starved_thermal]: ゾーンへのサーマルリリーフ接続が不完全 (レイヤー B.Cu; ゾーン 最小スポーク数: 2; 現状 1)
+    Local override; error
+    @(79.9450 mm, 39.7250 mm): Zone 'GND' [GND] on F.Cu and B.Cu, priority 3
+    @(133.4950 mm, 102.2150 mm): Pad 2 [GND] of Y2 on B.Cu
+[starved_thermal]: ゾーンへのサーマルリリーフ接続が不完全 (レイヤー F.Cu; ゾーン 最小スポーク数: 2; 現状 1)
+    Local override; error
+    @(79.9450 mm, 39.7250 mm): Zone 'GND' [GND] on F.Cu and B.Cu, priority 3
+    @(104.0650 mm, 57.5050 mm): Pad 2 [GND] of Y1 on F.Cu
+
+** Found 10 unconnected pads **
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(93.6450 mm, 49.2900 mm): Pad 2 [+5V] of R3 on F.Cu
+    @(90.7650 mm, 49.2900 mm): Pad 2 [+5V] of R4 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(93.6450 mm, 49.2900 mm): Pad 2 [+5V] of R3 on F.Cu
+    @(92.6900 mm, 52.4750 mm): Track [+5V] on B.Cu, length 2.0750 mm
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(79.9450 mm, 39.7250 mm): Zone 'GND' [GND] on F.Cu and B.Cu, priority 3
+    @(79.9450 mm, 39.7250 mm): Zone 'GND' [GND] on F.Cu and B.Cu, priority 3
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(133.4950 mm, 102.2150 mm): Pad 2 [GND] of Y2 on B.Cu
+    @(79.9450 mm, 39.7250 mm): Zone 'GND' [GND] on F.Cu and B.Cu, priority 3
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(126.0550 mm, 108.8425 mm): Pad 44 [+3.3V] of U3 on B.Cu
+    @(124.4550 mm, 108.8425 mm): Track [+3.3V] on B.Cu, length 1.2525 mm
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(127.2925 mm, 108.0050 mm): Track [+3.3V] on B.Cu, length 0.7525 mm
+    @(126.4550 mm, 108.8425 mm): Pad 43 [+3.3V] of U3 on B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(131.6050 mm, 54.8850 mm): Track [+3.3V] on B.Cu, length 0.0424 mm
+    @(133.3350 mm, 61.3650 mm): Pad 2 [+3.3V] of U2 on B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(135.1750 mm, 61.3450 mm): Via [+3.3V] on F.Cu - B.Cu
+    @(140.4350 mm, 63.2100 mm): Track [+3.3V] on B.Cu, length 0.9350 mm
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(160.3950 mm, 49.3250 mm): PTH pad 1 [+3.3V] of J1
+    @(149.5450 mm, 44.5650 mm): Track [+3.3V] on B.Cu, length 0.0566 mm
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(121.8350 mm, 56.2250 mm): Track [DDM4] on B.Cu, length 0.1061 mm
+    @(122.4550 mm, 108.8425 mm): Pad 53 [DDM4] of U3 on B.Cu
+
+** Found 0 Footprint errors **
+
+** Ignored checks **
+    - Footprint has no courtyard defined
+    - Track endpoint not centered on via
+    - Tuning profile track geometries
+    - Footprint doesn't match symbol's footprint filters
+    - Footprint component type doesn't match footprint pads
+
+** End of Report **
